@@ -60,7 +60,7 @@ export default function DownloadPage() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Download Tutorial</h2>
             <p><strong>Watch this tutorial on How to Download and unzip the Rapture Kit to your PC or Mac:</strong></p>
             
-            <br /><p><a href="/tutorials/Tutorial_5_How_to_Download_a_Rapture_Kit.mp4" target="_blank">
+            <br /><p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%205%20-%20How%20to%20Download%20a%20Rapture%20Kit.mp4" target="_blank">
               <img src="how_to_download_tutorial.png" alt="Tutorial thumbnail" className="mb-4 rounded-lg" width="600" />
             </a></p>
             
