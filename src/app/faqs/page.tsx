@@ -45,22 +45,28 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">What is a Rapture Kit?</h3>
                 <p className="text-muted-foreground">
-                  The Rapture Kit is a dual purpose resource designed to aid believers today in leading individuals to Christ (before the Rapture) and provide those not taken by Christ in the Rapture with essential information regarding what has happened, how to be saved, what to expect, and how to live for Christ. The giving of a Rapture Kit is an expression of care and God's love. It provides a starting point for believers today to have a spiritual impact in the world even after they have been taken in the Rapture.
+                  The Rapture Kit is a dual purpose resource designed to aid believers today in leading individuals to Christ (before the Rapture) and provide those not taken by Christ in the Rapture
+                  with essential information regarding what has happened, how to be saved, what to expect, and how to live for Christ. The giving of a Rapture Kit is an expression of care and God's love. 
+                  It provides a starting point for believers today to have a spiritual impact in the world even after they have been taken in the Rapture.
                 </p>
               </div>
 
               {/* Question 2 */}
               <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">What happened to the previous Rapture Kit 8GB (version 1.3)?</h3>
+                <h3 className="text-xl font-bold mb-3">What is the current version of the Rapture Kit?</h3>
                 <p className="text-muted-foreground">
-                  As of April 2021, we have worked hard to bring a very significant upgrade to the Rapture Kit. All material in the 8GB version has been brought forward into the 32GB version. The full version history of the Rapture Kit resource can be found <Link href="/faqs/rapture-kit-version-history">here</Link>.
+                  As of Q3 2024, we have worked hard to bring a very significant upgrade to the Rapture Kit. The current version is 3.0 and is designed for a 32GB USB drive or higher. It is recommended
+                  that you use USB 3.0 specification drives for the best performance. The full version history of the Rapture Kit resource can be found <Link href="/faqs/rapture-kit-version-history">here</Link>.
                 </p>
               </div>
 
               {/* Question 3 */}
               <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">What is Included in a Rapture Kit?</h3>
+                <h3 className="text-xl font-bold mb-3">What is Included in a Rapture Kit 3.0?</h3>
                 <p className="text-muted-foreground">
+                  There are 9 sections to the Rapture Kit resource. One of the big improvements in v3.0 is we have webified the user interface. By right clicking on the index.html file, you can
+                  experience the Rapture Kit in a web browser like Chrome, Edge, Brave, or Firefox. When all 9 zip filess are downloaded <Link href="/download">here</Link> and unzipped to a folder
+                  on your PC or Mac, you can see the full set of folders and files. 
                   A detailed overview of content can be found <Link href="/overview">here</Link>.
                 </p>
               </div>
@@ -73,22 +79,30 @@ export default function FAQsPage() {
                 </p>
                 <div className="pl-4 border-l-4 border-burgundy dark:border-yellow-400">
                   <p className="text-muted-foreground mb-4">
-                    <strong>General Statement:</strong> We believe the Rapture is imminent…it could happen at any time and without preconditions. Our team has been working for over two years to provide a helpful "starting point" for believers to reach others for Christ. This includes those on this side of the Rapture, because it clearly presents the Gospel and the consequences of being left behind. We pray many will come to faith in time…before the Tribulation period begins.
+                    <strong>General Statement:</strong> We believe the Rapture is imminent…it could happen at any time and without preconditions. Our team has been working for over five years to 
+                    provide a helpful "starting point" for believers to reach others for Christ. This includes those on this side of the Rapture, because it clearly presents the Gospel and the 
+                    consequences of being left behind. We pray many will come to faith in time BEFORE the Tribulation period begins.
                   </p>
                   <p className="text-muted-foreground mb-4">
-                    Realistically, however, we also know many are resistant to our pleading. They will not believe in time so as to escape in the Rapture. But we pray they will yield to Jesus in great repentance after the Rapture…when confronted by the truth of the Word of God and the testimony of so many that warned them of impending Tribulation.
+                    Realistically, however, we also know many are resistant to our pleading. They will not believe in time so as to escape in the Rapture. But we pray they will yield to Jesus in 
+                    great repentance after the Rapture…when confronted by the truth of the Word of God and the testimony of so many that warned them of impending Tribulation.
                   </p>
                   <p className="text-muted-foreground">
-                    Our struggle to produce the Rapture Kit is done with great love for the lost. Therefore, we want to empower a worldwide cohort of born again believers to help others brace for the things we know are coming to the best of our ability. We have a great responsibility to pass the baton to the next generation of believers…known as Tribulation Saints. Often, these are the lost we don't yet see. Please duplicate and spread this resource as a fully aligned member of the Body of Christ as we all sprint to our respective finish lines.
+                    Our struggle to produce the Rapture Kit is done with great love for the lost. Therefore, we want to empower a worldwide cohort of born again believers to help others brace for 
+                    the things we know are coming to the best of our ability. We have a great responsibility to pass the baton to the next generation of believers…known as Tribulation Saints. 
+                    Often, these are the lost we don't yet see. Please duplicate and spread this resource as a fully aligned member of the Body of Christ as we all sprint to our respective finish lines.
                   </p>
                 </div>
                 <h4 className="text-lg font-semibold mt-6 mb-2">What we want:</h4>
                 <p className="text-muted-foreground mb-4">
-                  Givers of the Rapture Kit are in effect, co-laboring with us to reach the lost! As such, we encourage the duplication of the Rapture Kit resources using blank USB drives (needed 32GB capacity) found in many stores. <Link href="https://www.amazon.com/s?k=32gb+usb+drive" target="_blank">Here is a link to Amazon</Link>. We recommend 32GB USB drives in either 2.0 or 3.0 specification. The 3.0 spec is much faster to use, but cost more to purchase.
+                  Givers of the Rapture Kit are in effect, co-laboring with us to reach the lost! As such, we encourage the duplication of the Rapture Kit resources using blank USB 
+                  drives (needed minimum32GB capacity) found in many stores. <Link href="https://www.amazon.com/s?k=32gb+usb+drive" target="_blank">Here is a link to Amazon</Link>. We recommend 32GB USB 
+                  drives in either 2.0 or 3.0 specification. The 3.0 spec is much faster to use, but cost slightly more to purchase.
                 </p>
                 <h4 className="text-lg font-semibold mt-6 mb-2">What we don't want:</h4>
                 <p className="text-muted-foreground">
-                  No person, Church, ministry, or entity can resell or license the Rapture Kit resource under any circumstances. Duplicate and use for personal evangelism: yes! Use for your own source of making money: no! Make sense?
+                  No person, Church, ministry, or entity can resell or license the Rapture Kit resource under any circumstances. Duplicate and use for personal evangelism: yes! Use for your own 
+                  source of making money: no! Make sense?
                 </p>
               </div>
 
@@ -96,15 +110,18 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">How hard is it to make my own Rapture Kits?</h3>
                 <p className="text-muted-foreground">
-                  It's not hard, but it is very time consuming. We have a Make Your Own web page that will provide several options for where you can download the materials. We support Rapture Kit 8GB (version 1.3) and Rapture Kit 32GB (version 2.0) options. These files are extremely large! There are three options for how to download with complete step-by-step instructions along with screenshots. Of course, if you purchase a physical Rapture Kit from our store and it is shipped to you, it can be much easier to duplicate on your PC.
+                  It's not hard, but it is time consuming. We have a Make Your Own web page that will provide several options for where you can download the materials. We only support Rapture 
+                  Kit version 3.0 on this website. The 9 zip files are extremely large! There are video tutorials on how to download and unzip the files, plus a few other utility tutorials. 
+                  You can find the tutorials <Link href="/tutorials">here</Link>.
                 </p>
               </div>
 
               {/* Question 6 */}
               <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">Is the data compatible for PC and Mac?</h3>
+                <h3 className="text-xl font-bold mb-3">Is the data compatible for PC, Mac, or Linux?</h3>
                 <p className="text-muted-foreground">
-                  The Rapture Kit Flash drive is explicitly designed to be compatible with PC and Mac computers. Nearly all resources are in one of three formats: (a) PDF documents for books and articles, (b) MP4 format for videos, and (c) MP3 for audio files.
+                  The Rapture Kit Flash drive is explicitly designed to be compatible with PC, Mac, and Linux operating systems and computers. 
+                  Nearly all resources are in one of three formats: (a) PDF documents for books and articles, (b) MP4 format for videos, and (c) MP3 for audio files.
                 </p>
               </div>
 
@@ -112,7 +129,7 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Is the Flash Drive customizable?</h3>
                 <p className="text-muted-foreground">
-                  More than 4GB of material can be added to the Rapture Kit 2.0 USB Flash Drive. It is easy to do so, see the <Link href="/tutorials">Tutorials page</Link> for more help.
+                  More than 4GB of material can be added to the Rapture Kit 3.0 configuration. It is easy to do so, see the Customizing a Rapture Kit page <Link href="/customizing-options">here</Link> for more help.
                 </p>
               </div>
 
@@ -120,7 +137,7 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">Do you have comments or suggestions?</h3>
                 <p className="text-muted-foreground">
-                  Our desire is to be a blessing. Please keep the I AM A WATCHMAN ministry in your prayers, and do not hesitate to <Link href="mailto:support@rapturekit.com">Contact Us</Link>!
+                  Our desire is to be a blessing. Please keep the I AM A WATCHMAN ministry in your prayers, and do not hesitate to <Link href="contact">Contact Us</Link>!
                 </p>
               </div>
 
@@ -128,7 +145,9 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">How you can help</h3>
                 <p className="text-muted-foreground">
-                  Please pray for God's blessing on the Rapture Kit resource and the I AM A WATCHMAN ministry. In addition, please make your friends/contacts/church aware of this resource. Thank you!
+                  Please pray for God's blessing on the Rapture Kit resource as we seek to extend the Gospel to our future Brothers and Sisters in the Tribulation Period. Pray for their growing 
+                  awareness of the truth of Bible Prophecy and the urgent need to be saved. Pray for the Holy Spirit to convict them of their need for a personal relationship with Jesus Christ. 
+                  And pray for the Lord to raise up a great multitude of new believers in the Tribulation Period to be "on mission" for the Lord.
                 </p>
               </div>
 
@@ -177,8 +196,8 @@ export default function FAQsPage() {
               </p>
             </div>
             <div className="text-right">
-              <RaptureButton href="/download">
-                Download for Free
+              <RaptureButton href="/rapture">
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>

@@ -39,8 +39,8 @@ export default function WhatIsTheRapturePage() {
               <Image
                 src="/banner_more_on_the_rapture.jpg"
                 alt="The Rapture"
-                width={1000}
-                height={600}
+                width={1200}
+                height={700}
                 className="rounded-lg"
               />
             </div>
@@ -141,8 +141,8 @@ export default function WhatIsTheRapturePage() {
               </p>
             </div>
             <div className="text-right">
-              <RaptureButton href="/download">
-                Download for Free
+              <RaptureButton href="/rapture">
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>

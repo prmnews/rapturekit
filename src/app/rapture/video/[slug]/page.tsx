@@ -126,8 +126,8 @@ export default function VideoPage({ params }: VideoParams) {
               </p>
             </div>
             <div className="text-right">
-              <RaptureButton href="/download">
-                Download for Free
+              <RaptureButton href="/rapture">
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>

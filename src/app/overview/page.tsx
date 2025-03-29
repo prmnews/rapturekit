@@ -88,6 +88,7 @@ export default function OverviewPage() {
             <hr className="my-8" />
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mt-8 mb-4"><strong>\Section 07 – Sermons and Teachings\</strong></h3>
             <p>We have curated several sermon and teaching series (with permission) to get Tribulation Saints up to speed as quickly as possible. We have contributions from apologist Charlie Campbell ("The End Times - Ten Upcoming Events in Bible Prophecy", 1 sermon, video format, 58 minutes), evangelist Nathan Jones and Pastor Vic Bautista (Book of Daniel chapters 8-12, 16 teachings, audio format, 10 hours 34 minutes), Pastor Brandon Holthaus (Book of Revelation, 45 sermons, audio format, 32 hours 31 minutes), Pastor Dr. Andy Woods (Book of Revelation, 75 sermons, audio format, 84 hours 19 minutes), Pastor Gary Ray (Various subjects, 9 teachings, audio format, 2 hours 46 minutes), Pastor Jack Hibbs featuring Amir Tsarfati ("Things You Should Know", 1 video, 56 minutes), and Pastor Tom Hughes (Book of Revelation, 40 sermons, video format, 29 hours 27 minutes).</p>
+            <br />
             <p>These sermons and teachings consist of a combined total of 130 hours in MP3 audio files, and 39 hours of video files.</p>
             <hr className="my-8" />
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mt-8 mb-4"><strong>\Section 08 – Additional Articles\</strong></h3>
@@ -121,8 +122,8 @@ export default function OverviewPage() {
               </p>
             </div>
             <div className="text-right">
-              <RaptureButton href="/download">
-                Download for Free
+              <RaptureButton href="/rapture">
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>

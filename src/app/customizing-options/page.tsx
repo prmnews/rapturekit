@@ -49,32 +49,36 @@ export default function CustomizingOptionsPage() {
                 <div className="flex items-start gap-4">
                   <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">1</div>
                   <p>
-                    When navigating the Rapture Kit file structure, note the folder: 'Section 01 - Materials for the Rapture Kit Sender' for ideas regarding broaching the subject of the Rapture with an unsaved friend or relative. Included on that page are sample letters which you may wish to adapt and send to the unsaved individual(s) God has placed on your heart.
+                    When navigating the Rapture Kit file structure, note the folder: 'Section 01 - Materials for the Rapture Kit Sender' for ideas regarding broaching the subject of the Rapture 
+                    with an unsaved friend or relative. Included on that page are sample letters which you may wish to adapt and send to the unsaved individual(s) God has placed on your heart.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
                   <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">2</div>
                   <p>
-                    When downloaded and copied to a 32GB USB drive, the Rapture Kit uses about 26GB leaving 4+ GB of free space available. Senders can upload personal letters, video messages, or scanned documents to the Drive. We suggest putting this kind of information in a separate folder perhaps named: 'Personal Information' or your own name, so the recipient can easily see this is personal information from you.
+                    When downloaded and copied to a 32GB+ USB drive, the Rapture Kit uses about 27GB leaving 4+ GB of free space available. Senders can upload personal letters, video messages, 
+                    or scanned documents to the Drive. We suggest putting this kind of information in a separate folder perhaps named: 'Personal Information' or your own name, so the recipient 
+                    can easily see this is personal information from you.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
                 <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">3</div>
                   <p>
-                    Senders of Rapture Kits may wish to consider uploading legal, financial, or personal property transfer information to the Kit. We urge caution here. We've provided links to several legal aid sources which may be 
-                    able to provide low or no-cost forms and counsel in the "Section 01 - Materials for the Rapture Kit Sender" and the PDF document "Information for the sender.PDF" page 5. To those who sense God's leading to gift a Rapture Kit to an 
-                    individual <strong>BEFORE</strong> the Rapture may wish to consider: Letting recipients of the Kits know where they can find a letter from you or file of information (perhaps at your home or business) that will have financial, 
-                    auto and/or property transfer, and/or last will and testament-type information.
+                    Senders of Rapture Kits may wish to consider uploading legal, financial, or personal property transfer information to the Kit. We urge caution here. We've provided links to 
+                    several legal aid sources which may be able to provide low or no-cost forms and counsel in the "Section 01 - Materials for the Rapture Kit Sender" and the PDF document 
+                    "Information for the sender.PDF" page 5. To those who sense God's leading to gift a Rapture Kit to an individual <strong>BEFORE</strong> the Rapture may wish to consider: 
+                    Letting recipients of the Kits know where they can find a letter from you or file of information (perhaps at your home or business) that will have financial, auto 
+                    and/or property transfer, and/or last will and testament-type information.
                   </p>                  
                 </div>
 
                 <div className="flex items-start gap-4">
                 <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">4</div>
                   <p>
-                    The goal here is to provide spiritual and practical resources to those not taken in the Rapture. Certainly, you do not want to provide sensitive 
-                    financial information and title-transfer paperwork in advance of the Rapture. However, in the chaos of the early days following the Rapture, it will be very impactful if the people you have been praying for 
+                    The goal here is to provide spiritual and practical resources to those not taken in the Rapture. Certainly, you do not want to provide sensitive financial information and 
+                    title-transfer paperwork in advance of the Rapture. However, in the chaos of the early days following the Rapture, it will be very impactful if the people you have been praying for 
                     know you have important information (a clean title to a car, a debit card that allows them to access funds, etc.), waiting for them in a particular (secure) location.
                   </p>
                 </div>
@@ -85,23 +89,27 @@ export default function CustomizingOptionsPage() {
             
             <div className="bg-muted rounded-lg p-8 mb-8">
               <p className="mb-6">
-                It is always fascinating to hear from people as to where they store their Rapture Kits so they can be discovered at just the right time. Don't forget to first and foremost give them away to those the Lord 
-                burdens you with. A direct and honest discussion might ensue, which will allow you to share the Gospel and the season of the Lord's return. Explain the urgency. Others, having done that already, 
-                leave their Rapture Kit in plain view so it's difficult to miss. This includes your pantry or wherever emergency supplies are located, like a designated bulk food storage area in your garage, closet, or storage shed. 
-                Since your car is likely to be taken once you are gone in the Rapture, you can leave one in the glove compartment or trunk.
+                It is always fascinating to hear from people as to where they store their Rapture Kits so they can be discovered at just the right time. Don't forget to first and foremost give them 
+                away to those the Lord burdens you with. A direct and honest discussion might ensue, which will allow you to share the Gospel and the season of the Lord's return. Explain the urgency. 
+                Others, having done that already, leave their Rapture Kit in plain view so it's difficult to miss. This includes your pantry or wherever emergency supplies are located, like a 
+                designated bulk food storage area in your garage, closet, or storage shed. Since your car is likely to be taken once you are gone in the Rapture, you can leave one in the glove compartment or trunk.
               </p>
 
               <div className="border-l-4 border-burgundy dark:border-yellow-400 pl-6 py-2 my-8">
                 <p className="italic">
-                  To those who sense God's leading to gift a Rapture Kit to an individual <strong>AFTER</strong> the Rapture: We suggest uploading the financial and property transfer information you wish the recipient to receive to the Rapture Kit Flash Drive, and letting potential recipients know you have a spiritual and practical resource set aside for them. Let them know you care for them and pray they are spiritually prepared for the coming Rapture. However, if the Rapture takes place and they are left behind, they can find the Rapture Kit resource you've set aside for them at this particular location_________.
+                  To those who sense God's leading to gift a Rapture Kit to an individual <strong>AFTER</strong> the Rapture: We suggest uploading the financial and property transfer information 
+                  you wish the recipient to receive to the Rapture Kit Flash Drive, and letting potential recipients know you have a spiritual and practical resource set aside for them. Let them know 
+                  you care for them and pray they are spiritually prepared for the coming Rapture. However, if the Rapture takes place and they are left behind, they can find the Rapture Kit resource 
+                  you've set aside for them at this particular location_________.
                 </p>
               </div>
             </div>
 
             <div className="bg-burgundy/10 dark:bg-yellow-400/10 rounded-lg p-8 mt-12">
               <p className="text-center italic mb-0">
-                We pray this resource will help believers become more strategic and active in witnessing, will be used to warn the lost about the coming Rapture, and will help individuals in the post-Rapture world be drawn to 
-                Christ and equipped to become the next generation of ministry leaders. Please continue to pray for us as we seek to make this resource available to as many people as possible.
+                We pray this resource will help believers become more strategic and active in witnessing, will be used to warn the lost about the coming Rapture, and will help individuals in the 
+                post-Rapture world be drawn to Christ and equipped to become the next generation of ministry leaders. Please continue to pray for us as we seek to make this resource available 
+                to as many people as possible.
               </p>
             </div>
           </div>
@@ -126,8 +134,8 @@ export default function CustomizingOptionsPage() {
               </p>
             </div>
             <div className="text-right">
-              <RaptureButton href="/download">
-                Download for Free
+              <RaptureButton href="/rapture">
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>
