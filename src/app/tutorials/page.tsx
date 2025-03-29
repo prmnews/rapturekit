@@ -125,7 +125,7 @@ export default function TutorialsPage() {
                 If you have questions about using your Rapture Kit that aren't addressed in these tutorials, please don't hesitate to reach out.
               </p>
               <div className="flex justify-center">
-                <RaptureButton href="mailto:support@rapturekit.com">
+                <RaptureButton href="contact">
                   Contact Support
                 </RaptureButton>
               </div>
