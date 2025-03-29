@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# download files
-/public/downloads/*
+# Large media files
+*.mp4
+*.mp3

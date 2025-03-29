@@ -65,7 +65,7 @@ export default function DownloadPage() {
             </a></p>
             
             <RaptureButton 
-              href="/tutorials/Tutorial_5_How_to_Download_a_Rapture_Kit.mp4" 
+              href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%205%20-%20How%20to%20Download%20a%20Rapture%20Kit.mp4"
               target="_blank"
               className="!bg-[#800020] !text-white hover:!bg-[#600010]"
             >
