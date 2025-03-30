@@ -279,13 +279,16 @@ export default function InterviewsPage() {
               </p>
             </div>
             <div className="text-center">
-              <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+              <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
+                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+              </Link>
               <p className="text-sm text-muted-foreground">
                 A - Admit you are a sinner
                 <br />B - Believe in Jesus Christ
                 <br />C - Confess and Commit
               </p>
             </div>
+
             <div className="text-right">
               <RaptureButton href="/rapture">
                 Did the Rapture Happen?

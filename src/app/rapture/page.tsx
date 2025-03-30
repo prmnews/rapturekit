@@ -271,6 +271,60 @@ export default function RapturePage() {
           </div>
         </section>
 
+        {/* Bonus Content: Alien Deception */}
+        <section>
+          <div className="bg-red-600 py-8 text-white">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold">
+                BONUS CONTENT: ALIEN DECEPTION
+              </h2>
+            </div>
+          </div>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse bg-muted-foreground/5 rounded-lg overflow-hidden">
+                <thead className="bg-muted-foreground/10">
+                  <tr>
+                    <th className="py-3 px-4 text-left font-medium">Flag</th>
+                    <th className="py-3 px-4 text-left font-medium">Countries</th>
+                    <th className="py-3 px-4 text-left font-medium">Language</th>
+                    <th className="py-3 px-4 text-left font-medium">Document</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="bg-muted-foreground/5">
+                    <td className="py-3 px-4 align-middle">
+                      <div className="relative w-16 h-10">
+                        <Image 
+                          src="/rapture/flags/flag_UnitedStates.png"
+                          alt="English"
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    </td>
+                    <td className="py-3 px-4 text-sm max-w-[300px]">
+                      <div className="line-clamp-3">
+                        Anguilla, Antigua and Barbuda, Australia, Bahamas, Barbados, Belize, British Indian Ocean Territory, British Virgin Islands, Canada, Cayman Islands, Dominica, Falkland Islands, Gibraltar, Grenada, Guam, Guernsey, Guyana, Ireland, Isle of Man, Jamaica, Jersey, Montserrat, Nauru, New Zealand, Philippines, Pitcairn, Saint Helena, Ascension and Tristan da Cunha, Saint Kitts and Nevis, Saint Vincent and the Grenadines, Singapore, South Georgia and the South Sandwich Islands, Trinidad and Tobago, Turks and Caicos, United Kingdom, United States
+                      </div>
+                    </td>
+                    <td className="py-3 px-4 font-medium">English</td>
+                    <td className="py-3 px-4">
+                      <Link 
+                        href="/rapture/pdf/Post Rapture Emergency Message - Part 4 Bonus.pdf"
+                        className="text-burgundy dark:text-yellow-400 hover:underline"
+                        target="_blank"
+                      >
+                        English Script
+                      </Link>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
         {/* Back to home link */}
         <section className="py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -293,13 +347,16 @@ export default function RapturePage() {
               </p>
             </div>
             <div className="text-center">
-              <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+              <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
+                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+              </Link>
               <p className="text-sm text-muted-foreground">
                 A - Admit you are a sinner
                 <br />B - Believe in Jesus Christ
                 <br />C - Confess and Commit
               </p>
             </div>
+
             <div className="text-right">
               <RaptureButton href="/rapture">
                 Did the Rapture Happen?
