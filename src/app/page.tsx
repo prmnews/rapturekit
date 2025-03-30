@@ -143,31 +143,31 @@ export default function Home() {
               <VideoCard
                 title="Walk-Thru of the Rapture Kit 3.0 USB Drive"
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="/tutorials/Tutorial_4_Walk_Thru_of_the_Rapture_Kit_3.0_USB_Drive.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%204%20-%20Walk-Thru%20of%20the%20Rapture%20Kit%203.0%20USB%20Drive.mp4"
                 target="_blank"
               />
               <VideoCard
                 title="How to Download a Rapture Kit"
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="/tutorials/Tutorial_5_How_to_Download_a_Rapture_Kit.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%205%20-%20How%20to%20Download%20a%20Rapture%20Kit.mp4"
                 target="_blank"
               />
               <VideoCard 
                 title="Copy the Rapture Kit to your computer" 
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="/tutorials/Tutorial_1_How_To _Copy_a_Rapture_Kit_USB_to_Your_PC_or_Mac.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%201%20-%20How%20To%20Copy%20a%20Rapture%20Kit%20USB%20to%20Your%20PC%20or%20Mac.mp4"
                 target="_blank"
               />
               <VideoCard
                 title="Make New Rapture Kit USB Drives"
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="/tutorials/Tutorial_2_How_To_Copy_a_Rapture_Kit_From_Your_PC_or_Mac_to_a_New_USB_Thumbdrive.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%202%20-%20How%20To%20Copy%20a%20Rapture%20Kit%20From%20Your%20PC%20or%20Mac%20to%20a%20New%20USB%20Thumbdrive.mp4"
                 target="_blank"
               />
               <VideoCard
                 title="How to UnZip/Open Bible Files"
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="/tutorials/Tutorial_3_How_to_UnZip_Open_Bible_on_Your_PC_or_Mac.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%203%20-%20How%20to%20UnZip%20Open%20Bible%20on%20Your%20PC%20or%20Mac.mp4"
                 target="_blank"
               />
             </div>
