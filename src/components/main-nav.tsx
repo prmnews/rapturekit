@@ -38,7 +38,7 @@ export function MainNav() {
 
 function DesktopNav() {
   return (
-    <NavigationMenu className="relative">
+    <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
@@ -58,10 +58,10 @@ function DesktopNav() {
             </ul>
           </NavigationMenuContent>
         </NavigationMenuItem>
-        <NavigationMenuItem className="relative">
+        <NavigationMenuItem>
           <NavigationMenuTrigger>FAQs</NavigationMenuTrigger>
-          <NavigationMenuContent className="absolute right-0 md:right-auto">
-            <ul className="grid w-[280px] gap-3 p-4 sm:w-[400px] md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuContent>
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               <ListItem href="overview" title="Rapture Kit Overview">
                 Learn about the Rapture Kit and its purpose.
               </ListItem>
