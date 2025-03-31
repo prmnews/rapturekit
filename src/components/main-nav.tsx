@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { useRef, useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu } from "lucide-react"
 
@@ -13,10 +14,9 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import { useMobile } from "@/hooks/use-mobile"
-import { SheetHeader, SheetTitle } from "@/components/ui/sheet"
 
 export function MainNav() {
   const isMobile = useMobile()
@@ -37,8 +37,35 @@ export function MainNav() {
 }
 
 function DesktopNav() {
+  const menuRef = useRef<HTMLDivElement>(null)
+  const [position, setPosition] = useState("")
+  
+  // Monitor window size changes to update positioning
+  useEffect(() => {
+    const updatePosition = () => {
+      if (menuRef.current) {
+        const menuRect = menuRef.current.getBoundingClientRect()
+        const spaceOnRight = window.innerWidth - menuRect.right
+        
+        // If there's not enough space on the right, adjust position of dropdown menus
+        if (spaceOnRight < 300) {
+          setPosition("[&_div.absolute]:left-auto [&_div.absolute]:right-0")
+        } else {
+          setPosition("")
+        }
+      }
+    }
+
+    // Initial calculation
+    updatePosition()
+    
+    // Update on resize
+    window.addEventListener("resize", updatePosition)
+    return () => window.removeEventListener("resize", updatePosition)
+  }, [])
+
   return (
-    <NavigationMenu>
+    <NavigationMenu ref={menuRef} className={position}>
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
