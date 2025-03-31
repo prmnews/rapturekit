@@ -4,8 +4,11 @@ import { useState, useEffect } from "react"
 
 export const useMobile = () => {
   const [isMobile, setIsMobile] = useState(false)
+  const [hasMounted, setHasMounted] = useState(false)
 
   useEffect(() => {
+    setHasMounted(true)
+    
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768) // Adjust breakpoint as needed
     }
@@ -22,6 +25,7 @@ export const useMobile = () => {
     }
   }, [])
 
-  return isMobile
+  // Return false during SSR to ensure consistent initial render
+  return hasMounted ? isMobile : false
 }
 

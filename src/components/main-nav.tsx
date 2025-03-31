@@ -16,15 +16,24 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import { useMobile } from "@/hooks/use-mobile"
+import { SheetHeader, SheetTitle } from "@/components/ui/sheet"
 
 export function MainNav() {
   const isMobile = useMobile()
+  const [mounted, setMounted] = React.useState(false)
+  
+  React.useEffect(() => {
+    setMounted(true)
+  }, [])
 
-  if (isMobile) {
-    return <MobileNav />
+  // During SSR and initial render, return a default navigation that works on both mobile and desktop
+  // This avoids hydration errors by ensuring server and initial client render match
+  if (!mounted) {
+    return <DesktopNav />
   }
 
-  return <DesktopNav />
+  // After hydration, render the appropriate navigation based on device
+  return isMobile ? <MobileNav /> : <DesktopNav />
 }
 
 function DesktopNav() {
@@ -97,6 +106,9 @@ function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="right">
+        <SheetHeader>
+          <SheetTitle>Navigation Menu</SheetTitle>
+        </SheetHeader>
         <nav className="flex flex-col gap-4">
           <Link href="/" className="text-lg font-medium">
             Home
@@ -110,30 +122,27 @@ function MobileNav() {
           <div>
             <h4 className="mb-1 text-lg font-medium">Media</h4>
             <div className="flex flex-col gap-2 pl-4">
-              <Link href="/media/featured-interviews" className="text-sm text-muted-foreground">
+              <Link href="/interviews" className="text-sm text-muted-foreground">
                 Featured Interviews
               </Link>
-              <Link href="/media/tutorials" className="text-sm text-muted-foreground">
+              <Link href="/tutorials" className="text-sm text-muted-foreground">
                 Tutorials
-              </Link>
-              <Link href="/media/testimonials" className="text-sm text-muted-foreground">
-                Testimonials
               </Link>
             </div>
           </div>
           <div>
             <h4 className="mb-1 text-lg font-medium">FAQs</h4>
             <div className="flex flex-col gap-2 pl-4">
-              <Link href="/faqs/rapture-kit-overview" className="text-sm text-muted-foreground">
+              <Link href="/overview" className="text-sm text-muted-foreground">
                 Rapture Kit Overview
               </Link>
-              <Link href="/faqs/make-your-own" className="text-sm text-muted-foreground">
+              <Link href="/download" className="text-sm text-muted-foreground">
                 Make Your Own
               </Link>
-              <Link href="/faqs/frequently-asked-questions" className="text-sm text-muted-foreground">
+              <Link href="/faqs" className="text-sm text-muted-foreground">
                 Frequently Asked Questions
               </Link>
-              <Link href="/faqs/customizing-options" className="text-sm text-muted-foreground">
+              <Link href="/customizing-options" className="text-sm text-muted-foreground">
                 Customizing Options
               </Link>
               <Link href="/faqs/rapture-kit-version-history" className="text-sm text-muted-foreground">
