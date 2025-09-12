@@ -20,7 +20,7 @@ export function ThemeLogo() {
         alt="Rapture Kit" 
         width={200} 
         height={52} 
-        className="h-auto w-auto" 
+        className="h-12 w-auto" 
       />
     )
   }
@@ -34,7 +34,7 @@ export function ThemeLogo() {
         alt="Rapture Kit" 
         width={200} 
         height={52} 
-        className="h-auto w-auto block dark:hidden" 
+        className="h-12 w-auto block dark:hidden" 
       />
       
       {/* Dark theme logo */}
@@ -43,7 +43,7 @@ export function ThemeLogo() {
         alt="Rapture Kit" 
         width={200} 
         height={52} 
-        className="h-auto w-auto hidden dark:block" 
+        className="h-12 w-auto hidden dark:block" 
       />
     </div>
   )

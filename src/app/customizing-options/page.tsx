@@ -42,14 +42,14 @@ export default function CustomizingOptionsPage() {
             
             <div className="bg-muted rounded-lg p-8 mb-8">
               <p className="mb-6">
-                There are many ways to use and customize the Rapture Kit resource. Consider each Kit a good starting point resource which you can add to based on the needs of the person you want to receive it. A few options are noted below:
+                There are many ways to use and customize the Rapture Kit resource. Consider each Kit a good starting point resource which you can add to, based on the needs of the person you want to receive it. A few options are noted below:
               </p>
 
               <div className="space-y-6 mt-8">
                 <div className="flex items-start gap-4">
                   <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">1</div>
                   <p>
-                    When navigating the Rapture Kit file structure, note the folder: 'Section 01 - Materials for the Rapture Kit Sender' for ideas regarding broaching the subject of the Rapture 
+                    When navigating the Rapture Kit file structure, note the folder: "Section 01 - Materials for the Rapture Kit Sender" for ideas regarding broaching the subject of the Rapture 
                     with an unsaved friend or relative. Included on that page are sample letters which you may wish to adapt and send to the unsaved individual(s) God has placed on your heart.
                   </p>
                 </div>
@@ -57,8 +57,8 @@ export default function CustomizingOptionsPage() {
                 <div className="flex items-start gap-4">
                   <div className="min-w-6 h-6 rounded-full bg-burgundy dark:bg-yellow-400 text-white dark:text-black flex items-center justify-center font-bold flex-shrink-0 mt-1">2</div>
                   <p>
-                    When downloaded and copied to a 32GB+ USB drive, the Rapture Kit uses about 27GB leaving 4+ GB of free space available. Senders can upload personal letters, video messages, 
-                    or scanned documents to the Drive. We suggest putting this kind of information in a separate folder perhaps named: 'Personal Information' or your own name, so the recipient 
+                    When downloaded and copied to a 32GB+ USB drive, the Rapture Kit uses about 27GB leaving 2+ GB of free space available. Senders can upload personal letters, video messages, 
+                    or scanned documents to the drive. We suggest putting this kind of information in a separate folder perhaps named: "Personal Information" or your own name, so the recipient 
                     can easily see this is personal information from you.
                   </p>
                 </div>
@@ -79,7 +79,7 @@ export default function CustomizingOptionsPage() {
                   <p>
                     The goal here is to provide spiritual and practical resources to those not taken in the Rapture. Certainly, you do not want to provide sensitive financial information and 
                     title-transfer paperwork in advance of the Rapture. However, in the chaos of the early days following the Rapture, it will be very impactful if the people you have been praying for 
-                    know you have important information (a clean title to a car, a debit card that allows them to access funds, etc.), waiting for them in a particular (secure) location.
+                    know you have important information (a clean title to a car, a debit card that allows them to access funds, etc.), waiting and for them in a particular (secure) location.
                   </p>
                 </div>
               </div>
@@ -129,11 +129,11 @@ export default function CustomizingOptionsPage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
 
             <div className="text-right">

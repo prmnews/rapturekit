@@ -42,7 +42,7 @@ export default function DownloadPage() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">It is easy to download Rapture Kit!</h2>
             <p>The download process requires several important considerations:</p>
             <br />
-            <p className="pl-8">It requires a significant amount of free space on your computer. The Rapture Kit is 3.0 is 27GB in size, so you need at least 27 GB of free space on your computer.</p>
+            <p className="pl-8">It requires a significant amount of free space on your computer. The Rapture Kit is 3.0 27GB in size, so you need at least 27 GB of free space on your computer.</p>
             <br />
             <p className="pl-8">It is ideal to have a stable and fast internet connection. The download process will take a while to download on slower internet connections.</p>
             <br />
@@ -55,10 +55,10 @@ export default function DownloadPage() {
             <p className="pl-8">If you plan to duplicate the Rapture Kit, you will need a computer with a USB port and a supply of blank USB drives (at least 32GB in size).</p>
             
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6 text-red-600"><strong>IF THE RAPTURE HAS HAPPENED, YOU MUST BE VERY CAREFUL!</strong></h2>
-            <p className="text-red-600 font-bold italic">In the Bible, we know that there is massive opposition to the Gospel, the Bible, and thoses holding a true Biblical Worldview. Born again believers will be persecuted, imprisoned, and even killed for their faith.  As such, we must advise you that you need to reduce the visibility of accessing these resources.  Perhaps use a VPN to disguise your location if you can.  If that is not possible, get to work, download the Rapture Kit, then get off as soon as possible.</p>
+            <p className="text-red-600 font-bold italic">In the Bible, we know that there is massive opposition to the Gospel, the Bible, and thoses holding a true Biblical worldview. Born again believers will be persecuted, imprisoned, and even killed for their faith.  As such, we must advise you that you need to reduce the visibility of accessing these resources.  Perhaps use a VPN to disguise your location if you can.  If that is not possible, get to work, download the Rapture Kit, then get off as soon as possible.</p>
             
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Download Tutorial</h2>
-            <p><strong>Watch this tutorial on How to Download and unzip the Rapture Kit to your PC or Mac:</strong></p>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Download Tutorial using a PC example</h2>
+            <p><strong>Watch this tutorial on how to download and unzip the Rapture Kit to your PC or Mac:</strong></p>
             
             <br /><p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%205%20-%20How%20to%20Download%20a%20Rapture%20Kit.mp4" target="_blank">
               <img src="how_to_download_tutorial.png" alt="Tutorial thumbnail" className="mb-4 rounded-lg" width="600" />
@@ -72,18 +72,78 @@ export default function DownloadPage() {
               Tutorial
             </RaptureButton>
             
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">List of Files to Download:</h2>
-            <ul className="space-y-4">
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%201%20of%209.zip">Rapture Kit 3.0 - Part 1 of 9 (3.10GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%202%20of%209.zip">Rapture Kit 3.0 - Part 2 of 9 (2.18GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%203%20of%209.zip">Rapture Kit 3.0 - Part 3 of 9 (2.72GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%204%20of%209.zip">Rapture Kit 3.0 - Part 4 of 9 (2.83GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%205%20of%209.zip">Rapture Kit 3.0 - Part 5 of 9 (2.21GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%206%20of%209.zip">Rapture Kit 3.0 - Part 6 of 9 (2.15GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%207%20of%209.zip">Rapture Kit 3.0 - Part 7 of 9 (4.03GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%208%20of%209.zip">Rapture Kit 3.0 - Part 8 of 9 (4.25GB)</a></li>
-              <li><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%209%20of%209.zip">Rapture Kit 3.0 - Part 9 of 9 (2.96GB)</a></li>
-            </ul>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Download for Your Platform:</h2>
+            
+            <div className="my-8">
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+                
+                <div className="bg-card border rounded-lg p-6">
+                  <div className="text-center mb-4">
+                    <h3 className="text-xl font-bold mb-2">🖥️ PC</h3>
+                    <p className="text-sm text-muted-foreground">Windows 10/11</p>
+                  </div>
+                  <div className="space-y-2">
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%201%20of%209.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%202%20of%209.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%203%20of%209.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%204%20of%209.zip" className="text-sm hover:underline">Part 4 of 9 (2.83GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%205%20of%209.zip" className="text-sm hover:underline">Part 5 of 9 (2.21GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%206%20of%209.zip" className="text-sm hover:underline">Part 6 of 9 (2.15GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%207%20of%209.zip" className="text-sm hover:underline">Part 7 of 9 (4.03GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%208%20of%209.zip" className="text-sm hover:underline">Part 8 of 9 (4.25GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%209%20of%209.zip" className="text-sm hover:underline">Part 9 of 9 (2.96GB)</a></p>
+                  </div>
+                  <div className="mt-4 pt-4 border-t text-xs text-muted-foreground">
+                    <p><strong>Total:</strong> ~27GB</p>
+                    <p>Windows 10 & 11</p>
+                  </div>
+                </div>
+
+                <div className="bg-card border rounded-lg p-6">
+                  <div className="text-center mb-4">
+                    <h3 className="text-xl font-bold mb-2">🍎 MacOS</h3>
+                    <p className="text-sm text-muted-foreground">macOS 10.15+</p>
+                  </div>
+                  <div className="space-y-2">
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%201%20of%209.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%202%20of%209.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%203%20of%209.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%204%20of%209.zip" className="text-sm hover:underline">Part 4 of 9 (2.83GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%205%20of%209.zip" className="text-sm hover:underline">Part 5 of 9 (2.21GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%206%20of%209.zip" className="text-sm hover:underline">Part 6 of 9 (2.15GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%207%20of%209.zip" className="text-sm hover:underline">Part 7 of 9 (4.03GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%208%20of%209.zip" className="text-sm hover:underline">Part 8 of 9 (4.25GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%209%20of%209.zip" className="text-sm hover:underline">Part 9 of 9 (2.96GB)</a></p>
+                  </div>
+                  <div className="mt-4 pt-4 border-t text-xs text-muted-foreground">
+                    <p><strong>Total:</strong> ~27GB</p>
+                    <p>Intel & Apple Silicon</p>
+                  </div>
+                </div>
+
+                <div className="bg-card border rounded-lg p-6">
+                  <div className="text-center mb-4">
+                    <h3 className="text-xl font-bold mb-2">🐧 Linux</h3>
+                    <p className="text-sm text-muted-foreground">All Distributions</p>
+                  </div>
+                  <div className="space-y-2">
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%201%20of%209.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%202%20of%209.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%203%20of%209.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%204%20of%209.zip" className="text-sm hover:underline">Part 4 of 9 (2.83GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%205%20of%209.zip" className="text-sm hover:underline">Part 5 of 9 (2.21GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%206%20of%209.zip" className="text-sm hover:underline">Part 6 of 9 (2.15GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%207%20of%209.zip" className="text-sm hover:underline">Part 7 of 9 (4.03GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%208%20of%209.zip" className="text-sm hover:underline">Part 8 of 9 (4.25GB)</a></p>
+                    <p><a href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/Rapture%20Kit%203.0%20-%20Part%209%20of%209.zip" className="text-sm hover:underline">Part 9 of 9 (2.96GB)</a></p>
+                  </div>
+                  <div className="mt-4 pt-4 border-t text-xs text-muted-foreground">
+                    <p><strong>Total:</strong> ~27GB</p>
+                    <p>Ubuntu, Fedora, Debian</p>
+                  </div>
+                </div>
+              </div>
+            </div>
             
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Written Instructions</h2>
             <p>Each of the nine (9) links below should be clicked.  It will initiate the download of each of the nine (9) zip files to your downloads folder.</p>
@@ -98,7 +158,7 @@ export default function DownloadPage() {
             <br />
             <p className="pl-8">The unzipping process has been designed to merge all the folders and files into the right structure.</p>
             <br />
-            <p className="pl-8">When completed, select all the files in the completed Rapture Kit folder and choose "Properties".</p>
+            <p className="pl-8">When completed, select all the files in the completed Rapture Kit folder and choose "Properties."</p>
             <br />
             <p className="pl-8"><strong>Confirm that the control totals appear as follows:</strong></p>
             <br />
@@ -128,19 +188,19 @@ export default function DownloadPage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
 
             <div className="text-right">
               <RaptureButton 
-                href="/download"
+                href="/rapture"
                 className="!bg-[#800020] !text-white hover:!bg-[#600010]"
               >
-                Download for Free
+                Did the Rapture Happen?
               </RaptureButton>
             </div>
           </div>

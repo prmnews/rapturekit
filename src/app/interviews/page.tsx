@@ -51,6 +51,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_tyler_pete.png" 
                     alt="Tyler - Generation 2434 and Pete - Rev 310 Ministries" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -64,7 +65,7 @@ export default function InterviewsPage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Tyler - Generation 2434 | Pete Garcia - Rev 310</h3>
-                  <p className="text-muted-foreground">In this live interview with Tyler and Pete, two well regarded Watchmen and Bible Prophecy channels, we introduce the Rapture Kit to a new audience.</p>
+                  <p className="text-muted-foreground">In this live interview with Tyler and Pete, two well-regarded Watchmen and Bible Prophecy channels, we introduce the Rapture Kit to a new audience.</p>
                   <p className="text-sm text-muted-foreground mt-4">Duration: 1 hour 29 minutes • February 2023</p>
                 </div>
               </div>
@@ -74,8 +75,9 @@ export default function InterviewsPage() {
                 <div className="aspect-video relative">
                   <Image 
                     src="/interviews/interview_tom_hughes.png" 
-                    alt="Interview with Tom Hughes at Hope For Our Times" 
+                    alt="Interview with Tom Hughes at Hope for Our Times" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -88,8 +90,8 @@ export default function InterviewsPage() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">Pastor Tom Hughes of Hope For Our Times</h3>
-                  <p className="text-muted-foreground">In this live interview with Tom Hughes of Hope For Our Times, the discussion centers on the Rapture Kit offered by the I Am A Watchman Ministry.</p>
+                  <h3 className="text-xl font-semibold mb-2">Pastor Tom Hughes of Hope for Our Times</h3>
+                  <p className="text-muted-foreground">In this live interview with Tom Hughes of Hope for Our Times, the discussion centers on the Rapture Kit offered by the I Am A Watchman Ministry.</p>
                   <p className="text-sm text-muted-foreground mt-4">Duration: 59 minutes • February 2023</p>
                 </div>
               </div>
@@ -103,6 +105,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_hfot.png" 
                     alt="Hope for Our Times Conference 2021" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -128,6 +131,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_christ_in_prophecy.png" 
                     alt="Interview with Christ in Prophecy" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -141,7 +145,7 @@ export default function InterviewsPage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">Lamb & Lion Ministries Presents Christ in Prophecy</h3>
-                  <p className="text-muted-foreground">How can you leave the Gospel with those who will be left behind at the Rapture?  In this interview, Dr. David Reagan and Nathan Jones interviews on Christ in Prophecy.</p>
+                  <p className="text-muted-foreground">How can you leave the Gospel with those who will be left behind at the Rapture?  In this interview, Dr. David Reagan and Nathan Jones discuss the Rapture Kit.</p>
                   <p className="text-sm text-muted-foreground mt-4">Duration: 28 minutes • April 2020</p>
                 </div>
               </div>
@@ -155,6 +159,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_prophecy_watchers_1.png" 
                     alt="Scott Townsend: Projecting the Gospel into the Future" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -180,6 +185,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_prophecy_watchers_2.png" 
                     alt="Interview with Prophecy Watchers" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -207,6 +213,7 @@ export default function InterviewsPage() {
                     src="/interviews/interview_jan_markell.png" 
                     alt="When Watchmen Warn with Jan Markell" 
                     fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
@@ -282,11 +289,11 @@ export default function InterviewsPage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>  
             </div>
 
             <div className="text-right">

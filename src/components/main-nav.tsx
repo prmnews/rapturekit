@@ -89,13 +89,13 @@ function DesktopNav() {
           <NavigationMenuTrigger>FAQs</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-              <ListItem href="overview" title="Rapture Kit Overview">
+              <ListItem href="/overview" title="Rapture Kit Overview">
                 Learn about the Rapture Kit and its purpose.
               </ListItem>
-              <ListItem href="download" title="Make Your Own">
+              <ListItem href="/download" title="Make Your Own">
                 Instructions for downloading and creating your own Rapture Kit.
               </ListItem>
-              <ListItem href="faqs" title="Frequently Asked Questions">
+              <ListItem href="/faqs" title="Frequently Asked Questions">
                 Common questions about the Rapture Kit.
               </ListItem>
               <ListItem href="/customizing-options" title="Customizing Options">

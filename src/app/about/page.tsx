@@ -34,44 +34,37 @@ export default function AboutPage() {
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-4 text-burgundy dark:text-yellow-400">About Us</h1>
             <div className="w-24 h-1 bg-burgundy dark:bg-yellow-400 mx-auto"></div>
-            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Our mission to equip believers and prepare resources for those left behind.</p>
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Our mission to equip believers today and to prepare resources for those left behind.</p>
           </div>
 
           {/* Content Area - 1200px max width */}
-          <div className="mx-auto max-w-[900px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
-            
-            <div className="flex justify-center mb-10">
-              <Image
-                src="/banner_more_on_the_rapture.jpg"
-                alt="About Rapture Kit Ministry"
-                width={1200}
-                height={600}
-                className="rounded-lg"
-              />
-            </div>
+          <div className="mx-auto max-w-[1200px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
             
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Our Story</h2>
             
             <div className="bg-muted rounded-lg p-8 mb-8">
               <p className="text-xl font-medium mb-0">
-                We equip the Body of Christ for missional outreach today as well as help prepare loved ones that will be left behind after the Rapture of the Church.
+                We equip the body of Christ for missional outreach today, as well as help prepare loved ones who will be left behind after the Rapture of the church.
               </p>
             </div>
             
             <p>
-              The I Am A Watchman ministry and many concerned believers believe we are in the season of the Lord's return. We have a common burden to reach the lost, including loved ones that we earnestly hope will come to faith before the Rapture of the Church.
+              The Rapture Kit ministry and many concerned believers believe we are in the season of the Lord's return. We have a common burden to reach the lost, including loved ones that we earnestly hope will come to faith before the Rapture of the Church.
             </p>
-            <br />
-            <p>
-              The team began working on Rapture Kits in 2019 to help reach people today and equip new believers for the Tribulation period. 
-              Our team consisted of four pastors, some with specialized skills in Christian Education and Editing. Part of our team include the pastors of other Churches that allowed
-              us to use their sermons and other teaching resources. This is the proper functioning of the Body of Christ. You can find the full development history 
-              here: <a href="/faqs/rapture-kit-version-history">Rapture Kit Version History</a>
-            </p>
+            <div className="mt-4">
+              <p>
+                The team began working on the Rapture Kit resource in 2019 to help reach people today and equip new believers for the Tribulation period. 
+                Our team consisted of four pastors, some with specialized skills in Christian Education and Editing. Part of our team includes the pastors of other Churches that allowed
+                us to use their sermons and other teaching resources. This is the proper functioning of the Body of Christ. You can find the full development history 
+                here: <a href="/faqs/rapture-kit-version-history">Rapture Kit Version History</a>
+              </p>
+            </div>
             
             <div className="border-l-4 border-burgundy dark:border-yellow-400 pl-6 py-4 my-8">
               <p className="text-lg mb-0">
-                We have an extreme burden for those left behind and seek to come alongside concerned believers by giving them a starting point for what to leave behind so that their personal outreach to loved ones they suspect will not yield to Christ in time can help reach and equip a new generation of believers. As such, our mission is to Tribulation Saints.
+                We have an extreme burden for those left behind. We seek to come alongside concerned believers today—by giving them a starting point for what to leave behind. 
+                We want to support their personal outreach to loved ones they suspect will not yield to Christ in time. Our goal can be summarized by helping to reach and equip a new generation of believers.
+                As such, our mission is especially focused on Tribulation saints.
               </p>
             </div>
             
@@ -89,10 +82,10 @@ export default function AboutPage() {
             
             <h3 className="text-2xl font-bold mt-12 mb-4">How You Can Help</h3>
             <ul>
-              <li>Download and distribute Rapture Kits to those you care about</li>
-              <li>Share this resource with your church and community</li>
-              <li>Pray for those who will need this information in the future</li>
-              <li>Contribute by sharing testimonies and spreading awareness</li>
+              <li>Download and distribute Rapture Kits to those you care about.</li>
+              <li>Share this resource with your church and community.</li>
+              <li>Pray for those who will need this information in the future.</li>
+              <li>Contribute by sharing testimonies and spreading awareness.</li>
             </ul>
             
             <div className="mt-12 flex justify-center space-x-4">
@@ -120,11 +113,11 @@ export default function AboutPage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
             <div className="text-right">
               <RaptureButton href="/rapture">

@@ -139,7 +139,7 @@ export default function RapturePage() {
         <section className="bg-red-600 py-8 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold">
-              WHAT JUST HAPPENED AND WHY
+              WHAT JUST HAPPENED AND WHY?
             </h2>
           </div>
         </section>
@@ -164,7 +164,7 @@ export default function RapturePage() {
               />
               <RaptureVideoCard
                 title="After the Rapture - Left Behind?"
-                introText="Prophecy Update presents a thorough explanation of what you have just witnessed - Its not to late to be saved!"
+                introText="Prophecy Update presents a thorough explanation of what you have just witnessed—It's not too late to be saved!"
                 thumbnail="/rapture/thumb_after_the_rapture_left_behind.jpg"
                 href="https://didmillionsdisappear.com/Section%2002%20-%20First%20things%20first/After-the-Rapture-Left-Behind.mp4"
                 target="_blank"
@@ -244,6 +244,7 @@ export default function RapturePage() {
                             src={`/rapture/flags/${resource.flag}`}
                             alt={resource.language}
                             fill
+                            sizes="64px"
                             className="object-contain"
                           />
                         </div>
@@ -299,6 +300,7 @@ export default function RapturePage() {
                           src="/rapture/flags/flag_UnitedStates.png"
                           alt="English"
                           fill
+                          sizes="64px"
                           className="object-contain"
                         />
                       </div>
@@ -350,11 +352,11 @@ export default function RapturePage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
 
             <div className="text-right">

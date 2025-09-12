@@ -38,7 +38,7 @@ export default function HowToBeRapturedPage() {
           </div>
 
           {/* Content Area - 1200px max width */}
-          <div className="mx-auto max-w-[900px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
+          <div className="mx-auto max-w-[1200px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
             
             <div className="text-center text-4xl mb-12">
               <p className="mb-2">To be Raptured, you must be born again</p>
@@ -51,7 +51,7 @@ export default function HowToBeRapturedPage() {
 
             <div className="bg-muted rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 flex items-center justify-center bg-burgundy dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">1</span>
+                <span className="w-8 h-8 flex items-center justify-center bg-[#800020] dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">1</span>
                 <span>Understand that God has not been first place in your life and ask Him to forgive your sins.</span>
               </h4>
               <p>
@@ -64,7 +64,7 @@ export default function HowToBeRapturedPage() {
 
             <div className="bg-muted rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 flex items-center justify-center bg-burgundy dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">2</span>
+                <span className="w-8 h-8 flex items-center justify-center bg-[#800020] dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">2</span>
                 <span>Believe that Jesus died to pay for your sins and that He rose again and is alive today.</span>
               </h4>
               <p>
@@ -77,11 +77,11 @@ export default function HowToBeRapturedPage() {
 
             <div className="bg-muted rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 flex items-center justify-center bg-burgundy dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">3</span>
+                <span className="w-8 h-8 flex items-center justify-center bg-[#800020] dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">3</span>
                 <span>Confess your sins to Jesus and accept God's gift of salvation.</span>
               </h4>
               <p>
-                Believe that God loves you. Believe that Jesus came and died for you. Believe that God's grace is greater than your sin. Do not let regret, bitterness, fear or shame keep you from falling into the arms of God.
+                Believe that God loves you. Believe that Jesus came and died for you. Believe that God's grace is greater than your sin. Do not let regret, bitterness, fear, or shame keep you from falling into the arms of God.
               </p>
               <p className="mt-4">
                 Remember, restoring our relationship with God is not based on anything we do, but on what Jesus already did for us!
@@ -93,7 +93,7 @@ export default function HowToBeRapturedPage() {
 
             <div className="bg-muted rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold flex items-center gap-2 mb-4">
-                <span className="w-8 h-8 flex items-center justify-center bg-burgundy dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">4</span>
+                <span className="w-8 h-8 flex items-center justify-center bg-[#800020] dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">4</span>
                 <span>Ask Jesus Christ to come into your heart and be Lord of your life.</span>
               </h4>
               <p>
@@ -111,27 +111,30 @@ export default function HowToBeRapturedPage() {
             <div className="bg-burgundy/10 dark:bg-yellow-400/10 rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold mb-4 text-center">A sample prayer is presented below:</h4>
               <blockquote className="italic">
-                "Dear Jesus, thank you for loving me, even when I've ignored You and have gone my own way. I realize I need You in my life and I'm sorry for my sins. I ask You to forgive me. Thank you for dying on the cross for me. Please help me to understand Your love, and Your will for my life, more and more. As much as I know how I want to follow You from now on. Please come into my life and make me a new person inside. I accept Your gift of salvation. Please help me to grow now as a Christian. Thank you, Jesus!"
+                "Dear Jesus, thank you for loving me, even when I've ignored You and have gone my own way. I realize I need You in my life, and I'm sorry for my sins. I ask You to forgive me. Thank you for dying on the cross for me. Please help me to understand Your love, and Your will for my life, more and more. As much as I know how, I want to follow You from now on. Please come into my life and make me a new person inside. I accept Your gift of salvation. Please help me to grow now as a Christian. Thank you, Jesus!"
               </blockquote>
             </div>
 
-            <h3 className="text-2xl font-bold mt-12 mb-6">Evidence of A Changed Life And What to Expect</h3>
+            <h3 className="text-2xl font-bold mt-12 mb-6">Evidence of a Changed Life and What to Expect</h3>
             <h4 className="text-xl font-bold mb-4">WHAT IS THE EVIDENCE OF A CHANGED LIFE?</h4>
             <p>
               Many ask: "How can I be sure that I'm saved?" Remember, your decision is spiritual—not physical. The proofs that you are saved have nothing to do with a change in appearance—you will not be taller, thinner, or free from sickness. Yes, miracles still happen, but miracles in the physical realm are not given as proof of our salvation.
             </p>
-            <br />
-            <p>
-              So then, how will you know that you are saved? Scripture notes that "the Spirit himself bears witness with our spirit that we are children of God…" (Romans 8:16). The proof is that when we are saved, God extends to new believers a part of Himself—the Holy Spirit. The Spirit then lives in the heart of every believer. This abiding presence of God which comforts, directs, guides, and empowers individuals for service.
-            </p>
-            <br />
-            <p>
-              The Spirit will help you understand Scripture, have a heart to serve, forgive and give, guide you in the path God has chosen for you, lead you to interact with those whom God would have you witness to, and help you to do what God wants you to do.
-            </p>
-            <br />
-            <p>
-              The proof of your salvation is internal—it is God touching your heart and mind and changing your priorities and desires. Believers still have a will, and can "resist the Spirit" (Acts 7:51b). There will likely be a learning curve and though maturing in Christ will take time, a true believer should immediately strive to grow in spiritual knowledge and strive to surrender to the precepts and leading of God.
-            </p>
+            <div className="mt-4">
+              <p>
+                So then, how will you know that you are saved? Scripture notes that "the Spirit himself bears witness with our spirit that we are children of God…" (Romans 8:16). The proof is that when we are saved, God extends to new believers a part of Himself—the Holy Spirit. The Spirit then lives in the heart of every believer. This abiding presence of God which comforts, directs, guides, and empowers individuals for service.
+              </p>
+            </div>
+            <div className="mt-4">
+              <p>
+                The Spirit will help you understand Scripture, have a heart to serve, forgive and give, guide you in the path God has chosen for you, lead you to interact with those whom God would have you witness to, and help you to do what God wants you to do.
+              </p>
+            </div>
+            <div className="mt-4">
+              <p>
+                The proof of your salvation is internal—it is God touching your heart and mind and changing your priorities and desires. Believers still have a will, and can "resist the Spirit" (Acts 7:51b). There will likely be a learning curve, and though maturing in Christ will take time, a true believer should immediately strive to grow in spiritual knowledge and strive to surrender to the precepts and leading of God.
+              </p>
+            </div>
             <blockquote className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2 italic mt-4">
               "This is how we know who the children of God are and who the children of the devil are: Anyone who does not do what is right is not God's child…" (1 John 3:10).
             </blockquote>
@@ -158,11 +161,11 @@ export default function HowToBeRapturedPage() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
             <div className="text-right">
               <RaptureButton href="/rapture">

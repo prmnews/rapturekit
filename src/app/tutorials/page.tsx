@@ -35,29 +35,16 @@ export default function TutorialsPage() {
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-4 text-burgundy dark:text-yellow-400">Video Tutorials</h1>
             <div className="w-24 h-1 bg-burgundy dark:bg-yellow-400 mx-auto"></div>
-            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Step-by-step guides to help you use, customize, and share your Rapture Kit effectively.</p>
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Step-by-step guides to help you use, customize, and share your Rapture Kit effectively. There are several tutorials available to help you get started.</p>
           </div>
 
           {/* Content Area - 1200px max width */}
           <div className="mx-auto max-w-[1200px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
             
-            <div className="flex justify-center mb-12">
-              <Image
-                src="/tutorials/graffiti_wall.png"
-                alt="Rapture Kit Tutorials"
-                width={1200}
-                height={800}
-                className="rounded-lg"
-              />
-            </div>
-            
+           
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Getting Started with Your Rapture Kit</h2>
             <p>
-              These tutorial videos are designed to help you effectively use and share your Rapture Kit. Whether you're new to the resource or looking to maximize its impact, these step-by-step guides will walk you through everything you need to know.
-            </p>
-
-            <p>
-              Each tutorial addresses a specific aspect of using the Rapture Kit, from basic file management to customization and sharing strategies. Watch these videos to ensure you're making the most of this powerful resource.
+              These tutorial videos are designed to help you effectively use and share your Rapture Kit. Whether you're new to the resource or looking to maximize its impact, these step-by-step guides will walk you through everything you need to know. Each tutorial addresses a specific aspect of using the Rapture Kit, from basic file management to customization and sharing strategies. Watch these videos to ensure you're making the most of this powerful resource.
             </p>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">

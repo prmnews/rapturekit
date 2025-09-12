@@ -40,7 +40,7 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-24 md:py-32 lg:py-40">
             <div className="mx-auto max-w-3xl text-center text-white">
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-                An Innovative witnessing resource for believers today
+                An Innovative Witnessing Resource for Believers Today
               </h1>
               <p className="mt-6 text-lg md:text-xl">An all-important resource for those left behind.</p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -81,10 +81,10 @@ export default function Home() {
               <FeatureCard
                 title="Comprehensive Content"
                 points={[
-                  "Multiple Bibles and Resources",
-                  "Video Sermon Series",
+                  "Bibles and resources",
+                  "Video sermon series",
                   "eBooks in PDF format",
-                  "Dozens of Articles",
+                  "Dozens of articles",
                 ]}
               />
               <FeatureCard
@@ -153,7 +153,7 @@ export default function Home() {
                 target="_blank"
               />
               <VideoCard 
-                title="Copy the Rapture Kit to your computer" 
+                title="Copy the Rapture Kit to Your Computer" 
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
                 href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%201%20-%20How%20To%20Copy%20a%20Rapture%20Kit%20USB%20to%20Your%20PC%20or%20Mac.mp4"
                 target="_blank"
@@ -195,11 +195,11 @@ export default function Home() {
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
                 <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
               </Link>
-              <p className="text-sm text-muted-foreground">
-                A - Admit you are a sinner
-                <br />B - Believe in Jesus Christ
-                <br />C - Confess and Commit
-              </p>
+              <ol className="text-sm text-muted-foreground list-decimal list-inside">
+                <li>A - Admit you are a sinner</li>
+                <li>B - Believe in Jesus Christ</li>
+                <li>C - Confess and commit</li>
+              </ol>
             </div>
             <div className="text-right">
               <RaptureButton href="/rapture">
