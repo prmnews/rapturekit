@@ -34,7 +34,7 @@ export default function FAQsPage() {
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-4 text-burgundy dark:text-yellow-400">Frequently Asked Questions</h1>
             <div className="w-24 h-1 bg-burgundy dark:bg-yellow-400 mx-auto"></div>
-            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Find answers to common questions about the Rapture Kit 32GB (version 2.0)</p>
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Find answers to common questions about the Rapture Kit 32GB version 3.1)</p>
           </div>
 
           {/* Content Area - 1200px max width */}
@@ -62,9 +62,9 @@ export default function FAQsPage() {
 
               {/* Question 3 */}
               <div className="bg-muted rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-3">What is Included in a Rapture Kit 3.0?</h3>
+                <h3 className="text-xl font-bold mb-3">What is Included in a Rapture Kit 3.1?</h3>
                 <p className="text-muted-foreground">
-                  There are 9 sections to the Rapture Kit resource. One of the big improvements introduced in v3.0 was we have webified the user interface. By right clicking on the index.html file, you can
+                  There are 9 sections to the Rapture Kit resource. One of the big improvements introduced in v3.0 (the previous generation) was we have webified the user interface. By right clicking on the index.html file, you can
                   experience the Rapture Kit in a web browser like Chrome, Edge, Brave, or Firefox. When all 9 zip files are downloaded <Link href="/download">here</Link> and unzipped to a folder
                   on your PC or Mac, you can see the full set of folders and files. One of the big improvements introduced in v3.1 was we have added a folder browser to the Rapture Kit. This allows you to browse the folders and files on the Rapture Kit without having to unzip the files.
                   A detailed overview of content can be found <Link href="/overview">here</Link>.

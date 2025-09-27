@@ -141,9 +141,9 @@ export default function Home() {
             <h2 className="mb-12 text-center text-3xl font-bold tracking-tight sm:text-4xl">Video Tutorials</h2>
             <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
               <VideoCard
-                title="Walk-Thru of the Rapture Kit 3.0 USB Drive"
+                title="Walk-Thru of the Rapture Kit 3.1 USB Drive"
                 thumbnail="/tutorials/thumb_graffiti_wall.png"
-                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%204%20-%20Walk-Thru%20of%20the%20Rapture%20Kit%203.0%20USB%20Drive.mp4"
+                href="https://didmillionsdisappear.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/Tutorial%204%20-%20Walk-Thru%20of%20the%20Rapture%20Kit%203.1%20USB%20Drive.mp4"
                 target="_blank"
               />
               <VideoCard

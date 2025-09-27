@@ -40,7 +40,7 @@ export default function OverviewPage() {
           <div className="mx-auto max-w-[1200px] prose prose-lg dark:prose-invert prose-headings:font-bold prose-headings:text-burgundy dark:prose-headings:text-yellow-400 prose-a:text-burgundy dark:prose-a:text-yellow-400">
             {/* Content will go here */}
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6"><strong>What is a Rapture Kit?</strong></h2>
-            <p>The Rapture Kit 3.0 resource is a 32GB USB (Flash Drive) preloaded with an abundance of educational, evangelistic, and discipleship materials.</p>
+            <p>The Rapture Kit 3.1 resource is a 32GB USB (Flash Drive) preloaded with an abundance of educational, evangelistic, and discipleship materials.</p>
             <br />
             <p>A Rapture Kit is a resource designed to aid believers in actively praying for and reaching out to individuals who are not yet saved and in danger of being left behind after the Rapture. The goal is two-fold:</p>
             <br />
@@ -99,7 +99,7 @@ export default function OverviewPage() {
             <p>We have generous partners that have offered their content to be included in the Rapture Kit. We are grateful for their contributions and we are excited to share their resources with you. This is the one area where you will continue to see new content as the Lord provides and our timeline permits before the Rapture!</p>
             <hr className="my-8" />
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6"><strong>PLATFORM SUPPORT</strong></h2>
-            <p>The USB Drive (either 2.0 or 3.0) is compatible with any Mac, Linux, or Windows-based PCs capable of loading any USB 2.0 or higher specification and that have current drivers to support .PDF Documents, .MP3 audio files, and .MP4 video files.</p>
+            <p>The USB Drive (either 2.0 or 3.0 specification) is compatible with any Mac, Linux, or Windows-based PCs capable of loading any USB 2.0 or higher specification and that have current drivers to support .PDF Documents, .MP3 audio files, and .MP4 video files.</p>
             <br />  
             <p>Video (MP4) and audio (MP3) can also be played from many contemporary TV platforms (such as Samsung, Sony, LG...). This is intentionally purposed for small, private, underground Christ Followers seeking to finish well during the Tribulation period. As such, it facilitates group study and discussion.</p>
           </div>

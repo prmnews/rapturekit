@@ -47,6 +47,7 @@ export default function RaptureKitVersionHistoryPage() {
               <p>
                 If you have a <strong>32GB drive or higher capacity</strong> (such as 64GB, 128GB, etc.), then you should use the Rapture Kit 3.1, which is available <Link href="/download">here</Link>.
               </p>
+              <br />
               <p>
                 NOTE: You can get quite creative with storage media. For example, you can copy the full contents of the Rapture Kit to a tiny SanDisk 32GB Ultra microSDHC UHS-I card available in many stores.
                 You can even use a typical memory card like the kind you use in your camera or camcorder as long as it has at least 32GB of storage. It leaves enough room for quite a few photos and videos.
@@ -223,7 +224,7 @@ export default function RaptureKitVersionHistoryPage() {
             <div className="mt-4" style={{ paddingLeft: '10px' }}>
                 <ul>
                     <li>• Scott Townsend - RKPi5 - Rapture Kit captive portal server hotspot</li>
-                    <li>• George - pi5 - multi-website server with admin tooling</li>
+                    <li>• George - wampi - this is still under development. Stay tuned!</li>
                 </ul>
             </div>
             <div className="mt-4">
