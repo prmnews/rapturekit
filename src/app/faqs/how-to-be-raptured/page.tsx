@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -58,7 +57,7 @@ export default function HowToBeRapturedPage() {
                 Scripture notes that God loves us and that Jesus will forgive the sins that are confessed to Him.
               </p>
               <blockquote className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2 italic mt-4">
-                "If we confess our sins, He is faithful and just and will forgive us our sins and cleanse us from every wrong." (1 John 1:9)
+                &quot;If we confess our sins, He is faithful and just and will forgive us our sins and cleanse us from every wrong.&quot; (1 John 1:9)
               </blockquote>
             </div>
 
@@ -71,23 +70,23 @@ export default function HowToBeRapturedPage() {
                 Know that Jesus died and rose again so that your sins can be forgiven. When this happens, you are restored into a right and perfect relationship with the Father. The first step is to acknowledge that you believe in God, that His Son is Jesus, that Jesus came to earth, lived a sinless life, was crucified, rose again and will come again in fulfillment of the Scriptures.
               </p>
               <blockquote className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2 italic mt-4">
-                "If you confess that Jesus is your Lord, and you believe in your heart that God raised Him from the dead, you will be saved." (Romans 10:9)
+                &quot;If you confess that Jesus is your Lord, and you believe in your heart that God raised Him from the dead, you will be saved.&quot; (Romans 10:9)
               </blockquote>
             </div>
 
             <div className="bg-muted rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold flex items-center gap-2 mb-4">
                 <span className="w-8 h-8 flex items-center justify-center bg-[#800020] dark:bg-yellow-400 text-white dark:text-black rounded-full flex-shrink-0">3</span>
-                <span>Confess your sins to Jesus and accept God's gift of salvation.</span>
+                <span>Confess your sins to Jesus and accept God&apos;s gift of salvation.</span>
               </h4>
               <p>
-                Believe that God loves you. Believe that Jesus came and died for you. Believe that God's grace is greater than your sin. Do not let regret, bitterness, fear, or shame keep you from falling into the arms of God.
+                Believe that God loves you. Believe that Jesus came and died for you. Believe that God&apos;s grace is greater than your sin. Do not let regret, bitterness, fear, or shame keep you from falling into the arms of God.
               </p>
               <p className="mt-4">
                 Remember, restoring our relationship with God is not based on anything we do, but on what Jesus already did for us!
               </p>
               <p className="mt-4">
-                Remember also, that when you confess your sins, your sins are both forgiven and forgotten. Scripture notes that "When we confess our sins to Jesus, He is faithful and just to forgive us our sins and cleans us from all unrighteousness" (1 John 1:9).
+                Remember also, that when you confess your sins, your sins are both forgiven and forgotten. Scripture notes that &quot;When we confess our sins to Jesus, He is faithful and just to forgive us our sins and cleans us from all unrighteousness&quot; (1 John 1:9).
               </p>
             </div>
 
@@ -97,10 +96,10 @@ export default function HowToBeRapturedPage() {
                 <span>Ask Jesus Christ to come into your heart and be Lord of your life.</span>
               </h4>
               <p>
-                It is not enough to believe in Him—the Bible notes that even the demons believe in Him. The call is to love Him and follow Him with all of your heart, all of your mind and all of your strength." God's grace is promised to all who truly believe.
+                It is not enough to believe in Him—the Bible notes that even the demons believe in Him. The call is to love Him and follow Him with all of your heart, all of your mind and all of your strength.&quot; God&apos;s grace is promised to all who truly believe.
               </p>
               <blockquote className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2 italic mt-4">
-                "To all who receive Him, He gives the right to become children of God." (John 1:12)
+                &quot;To all who receive Him, He gives the right to become children of God.&quot; (John 1:12)
               </blockquote>
             </div>
 
@@ -111,18 +110,18 @@ export default function HowToBeRapturedPage() {
             <div className="bg-burgundy/10 dark:bg-yellow-400/10 rounded-lg p-8 my-8">
               <h4 className="text-xl font-bold mb-4 text-center">A sample prayer is presented below:</h4>
               <blockquote className="italic">
-                "Dear Jesus, thank you for loving me, even when I've ignored You and have gone my own way. I realize I need You in my life, and I'm sorry for my sins. I ask You to forgive me. Thank you for dying on the cross for me. Please help me to understand Your love, and Your will for my life, more and more. As much as I know how, I want to follow You from now on. Please come into my life and make me a new person inside. I accept Your gift of salvation. Please help me to grow now as a Christian. Thank you, Jesus!"
+                &quot;Dear Jesus, thank you for loving me, even when I&apos;ve ignored You and have gone my own way. I realize I need You in my life, and I&apos;m sorry for my sins. I ask You to forgive me. Thank you for dying on the cross for me. Please help me to understand Your love, and Your will for my life, more and more. As much as I know how, I want to follow You from now on. Please come into my life and make me a new person inside. I accept Your gift of salvation. Please help me to grow now as a Christian. Thank you, Jesus!&quot;
               </blockquote>
             </div>
 
             <h3 className="text-2xl font-bold mt-12 mb-6">Evidence of a Changed Life and What to Expect</h3>
             <h4 className="text-xl font-bold mb-4">WHAT IS THE EVIDENCE OF A CHANGED LIFE?</h4>
             <p>
-              Many ask: "How can I be sure that I'm saved?" Remember, your decision is spiritual—not physical. The proofs that you are saved have nothing to do with a change in appearance—you will not be taller, thinner, or free from sickness. Yes, miracles still happen, but miracles in the physical realm are not given as proof of our salvation.
+              Many ask: &quot;How can I be sure that I&apos;m saved?&quot; Remember, your decision is spiritual—not physical. The proofs that you are saved have nothing to do with a change in appearance—you will not be taller, thinner, or free from sickness. Yes, miracles still happen, but miracles in the physical realm are not given as proof of our salvation.
             </p>
             <div className="mt-4">
               <p>
-                So then, how will you know that you are saved? Scripture notes that "the Spirit himself bears witness with our spirit that we are children of God…" (Romans 8:16). The proof is that when we are saved, God extends to new believers a part of Himself—the Holy Spirit. The Spirit then lives in the heart of every believer. This abiding presence of God which comforts, directs, guides, and empowers individuals for service.
+                So then, how will you know that you are saved? Scripture notes that &quot;the Spirit himself bears witness with our spirit that we are children of God…&quot; (Romans 8:16). The proof is that when we are saved, God extends to new believers a part of Himself—the Holy Spirit. The Spirit then lives in the heart of every believer. This abiding presence of God which comforts, directs, guides, and empowers individuals for service.
               </p>
             </div>
             <div className="mt-4">
@@ -132,11 +131,11 @@ export default function HowToBeRapturedPage() {
             </div>
             <div className="mt-4">
               <p>
-                The proof of your salvation is internal—it is God touching your heart and mind and changing your priorities and desires. Believers still have a will, and can "resist the Spirit" (Acts 7:51b). There will likely be a learning curve, and though maturing in Christ will take time, a true believer should immediately strive to grow in spiritual knowledge and strive to surrender to the precepts and leading of God.
+                The proof of your salvation is internal—it is God touching your heart and mind and changing your priorities and desires. Believers still have a will, and can &quot;resist the Spirit&quot; (Acts 7:51b). There will likely be a learning curve, and though maturing in Christ will take time, a true believer should immediately strive to grow in spiritual knowledge and strive to surrender to the precepts and leading of God.
               </p>
             </div>
             <blockquote className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2 italic mt-4">
-              "This is how we know who the children of God are and who the children of the devil are: Anyone who does not do what is right is not God's child…" (1 John 3:10).
+              &quot;This is how we know who the children of God are and who the children of the devil are: Anyone who does not do what is right is not God&apos;s child…&quot; (1 John 3:10).
             </blockquote>
             
             <div className="mt-12 flex justify-center">
@@ -159,7 +158,7 @@ export default function HowToBeRapturedPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

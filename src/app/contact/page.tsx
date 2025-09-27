@@ -2,7 +2,6 @@
 
 import { useState, FormEvent, ChangeEvent } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MainNav } from "@/components/main-nav";
@@ -108,7 +107,7 @@ export default function ContactPage() {
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-4 text-burgundy dark:text-yellow-400">Contact Us</h1>
             <div className="w-24 h-1 bg-burgundy dark:bg-yellow-400 mx-auto"></div>
-            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">We'd love to hear from you. Feel free to reach out with any questions about the Rapture Kit.</p>
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">We&apos;d love to hear from you. Feel free to reach out with any questions about the Rapture Kit.</p>
           </div>
 
           {/* Content Area - 1200px max width */}
@@ -117,7 +116,7 @@ export default function ContactPage() {
               <div className="bg-green-50 dark:bg-green-900 border border-green-200 dark:border-green-700 rounded-lg p-8 text-center">
                 <h3 className="text-2xl font-bold mb-4 text-green-800 dark:text-green-300">Thank You!</h3>
                 <p className="text-green-700 dark:text-green-400 mb-6">
-                  Your message has been sent successfully. We'll get back to you as soon as possible.
+                  Your message has been sent successfully. We&apos;ll get back to you as soon as possible.
                 </p>
                 <RaptureButton
                   onClick={() => setFormStatus({ submitted: false, submitting: false, info: { error: false, msg: null } })}
@@ -240,7 +239,7 @@ export default function ContactPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

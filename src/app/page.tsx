@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

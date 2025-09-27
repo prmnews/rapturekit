@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -67,7 +66,7 @@ export default function RaptureKitVersionHistoryPage() {
               <div className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2">
                 <p className="mb-0">
                   <strong>Version 1.1</strong> – the material was put on a flash drive with the IAAW logo. A foam-lined protective case for the flash drive was designed and made available; several 
-                  books were updated, and a children's book was added. About this time, the RaptureKit.org website came online. This site profiles Rapture Kit contents and includes an introductory 
+                  books were updated, and a children&apos;s book was added. About this time, the RaptureKit.org website came online. This site profiles Rapture Kit contents and includes an introductory 
                   video. This is now out of date.
                 </p>
               </div>
@@ -112,11 +111,11 @@ export default function RaptureKitVersionHistoryPage() {
               <div className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2">
                 <p className="mb-0">
                   <strong>Version 2.1</strong> – Released in March 2022. Because the team had additional time-to-develop and due to the additional Tribulation stage setting and precursors we observe, 
-                  the team developed the "Post Rapture Emergency Message" material. There are three (3) audio messages (in English), around 15 minutes each, that share (part 1) what just happened, (part 2) 
+                  the team developed the &quot;Post Rapture Emergency Message&quot; material. There are three (3) audio messages (in English), around 15 minutes each, that share (part 1) what just happened, (part 2) 
                   what to do now, and (part 3) how to get additional resources from the Rapture Kit downloads for free. Additionally, the script for these three teachings were combined and then translated 
                   by a certified translation service into multiple languages reaching a potential 5.8 billion in their first language. These languages include Arabic, Bengali, French, Hebrew, Hindi, 
                   Indonesian, Japanese, Portuguese, Russian, Simplified Chinese, Spanish, and Urdu. Coinciding with this release, the team updated iamawatchman.com, rapturekit.org, and amiraptureready.org 
-                  with a "Has the Rapture Happened?" button visible on the home page which navigates to these Post Rapture Emergency Message page and content.
+                  with a &quot;Has the Rapture Happened?&quot; button visible on the home page which navigates to these Post Rapture Emergency Message page and content.
                 </p>
               </div>
               
@@ -134,8 +133,8 @@ export default function RaptureKitVersionHistoryPage() {
             <div className="space-y-6">
               <div className="border-l-4 border-burgundy dark:border-yellow-400 pl-4 py-2">
                 <p>
-                  <strong>Version 3.0</strong> – Released in Q3 2024. We have "webified" the Rapture Kit navigation interface in order to make the significant amount of content more accessible. In 
-                  the root directory of the Rapture Kit is a 'index.html' file. To access the web interface of the Rapture Kit, simply right click on the index.html file and go to "Open With…" 
+                  <strong>Version 3.0</strong> – Released in Q3 2024. We have &quot;webified&quot; the Rapture Kit navigation interface in order to make the significant amount of content more accessible. In 
+                  the root directory of the Rapture Kit is a &apos;index.html&apos; file. To access the web interface of the Rapture Kit, simply right click on the index.html file and go to &quot;Open With…&quot; 
                   submenu where you can choose the browser you wish to use. NOTE: You do not need an internet connection to experience the new browser interface of the Rapture Kit. This is a very
                   important point to understand, becauses it will reduce tracking and data collection on your device.
                 </p>
@@ -157,20 +156,20 @@ export default function RaptureKitVersionHistoryPage() {
             <div className="mt-4">
               <p>
                 Berean Study Bible, King James Version, American Standard Version, Darby Bible
-                Translation, English Revised Version, Young's Literal Translation, Parallel
-                Translations, Cross Reference and Treasury of Scripture Knowledge, Parallel Commentaries, Strong's Lexicon (BSB, YLT, KJV), Hebrew Text Analysis,and Bible Book Outline.
+                Translation, English Revised Version, Young&apos;s Literal Translation, Parallel
+                Translations, Cross Reference and Treasury of Scripture Knowledge, Parallel Commentaries, Strong&apos;s Lexicon (BSB, YLT, KJV), Hebrew Text Analysis,and Bible Book Outline.
               </p>
             </div>
             <div className="mt-4">
               <p>
-                To open up the Open Bible webpage, in the new folder you have unzipped this resource to on your PC or Mac, right click on the index.html file and go to "Open With…" submenu where you 
-                can choose the browser you wish to use. When you unzip the Rapture Kit zip files, you will find it in the "Section 03 - Bibles" and then in the "Open Bible Versions and Study Tools" folder. 
-                The filename is: "OpenBible.zip." There is a readme.txt file that will give you more information about installing and using the Open Bible platform.
+                To open up the Open Bible webpage, in the new folder you have unzipped this resource to on your PC or Mac, right click on the index.html file and go to &quot;Open With…&quot; submenu where you 
+                can choose the browser you wish to use. When you unzip the Rapture Kit zip files, you will find it in the &quot;Section 03 - Bibles&quot; and then in the &quot;Open Bible Versions and Study Tools&quot; folder. 
+                The filename is: &quot;OpenBible.zip.&quot; There is a readme.txt file that will give you more information about installing and using the Open Bible platform.
               </p>
             </div>
             <br />
             <p className="italic" style={{ paddingLeft: '20px' }}>
-              Reminder, the Open Bible platform is not decompressed on the Rapture Kit because it won't fit. You must first copy the zip file and then extract it to your PC or Mac.
+              Reminder, the Open Bible platform is not decompressed on the Rapture Kit because it won&apos;t fit. You must first copy the zip file and then extract it to your PC or Mac.
             </p>
             
             <h4 className="text-xl font-bold mt-8 mb-4">SURVIVAL AND MEDICAL CONTENT</h4>
@@ -191,7 +190,7 @@ export default function RaptureKitVersionHistoryPage() {
                   <strong>Version 3.1</strong> – Released in Q3 2025. 
                 </p>
                 <p>
-                  One of the problems the existing Post Rapture Emergency Message websites had was that 98% of the folder and files were hidden. To see the full content, it forced users to download the 9 zip files which is roughly 26GB of data. Then, they had to be unzipped and reassembled. This has now been fixed. We have introduced a new "Browse Files" menu item between the "No - Option" and "Resources" menu items. When this new menu items is clicked, it opens up a folder browser that has the following features:
+                  One of the problems the existing Post Rapture Emergency Message websites had was that 98% of the folder and files were hidden. To see the full content, it forced users to download the 9 zip files which is roughly 26GB of data. Then, they had to be unzipped and reassembled. This has now been fixed. We have introduced a new &quot;Browse Files&quot; menu item between the &quot;No - Option&quot; and &quot;Resources&quot; menu items. When this new menu items is clicked, it opens up a folder browser that has the following features:
                 </p>
                 <ol className="mt-4 ml-4 list-decimal">
                   <li>All folder and file structures are browseable with one-click drill-in/drill-out.</li>
@@ -213,10 +212,10 @@ export default function RaptureKitVersionHistoryPage() {
               <p>ETBP with Britt Gillette - All 4 of his book series.</p>
             </div>
             <div className="mt-4">
-              <p>CO Wyler - The complete 4 book "Untaken" series.</p>
+              <p>CO Wyler - The complete 4 book &quot;Untaken&quot; series.</p>
             </div>
             <div className="mt-4">
-              <p>FluidicIce - Has 4 PDF resources, including a 293 page "The Rapture Survival Guide"</p>
+              <p>FluidicIce - Has 4 PDF resources, including a 293 page &quot;The Rapture Survival Guide&quot;</p>
             </div>
             <div className="mt-4">
               <h5>Raspberry PI Server Solutions:</h5>
@@ -228,7 +227,7 @@ export default function RaptureKitVersionHistoryPage() {
                 </ul>
             </div>
             <div className="mt-4">
-              <h5><strong>RASPBERRY PI SERVER SOLUTIONS - Using Scott Townsend's RKPi5 Configuration</strong></h5>
+              <h5><strong>RASPBERRY PI SERVER SOLUTIONS - Using Scott Townsend&apos;s RKPi5 Configuration</strong></h5>
             </div>
             <div className="mt-4">
               <p>This is a short introduction to one of our Advanced Gospel Initiatives. Inspired by others, we realized how we can adapt an existing feature in Wi-Fi hotspots to project our Post Rapture Emergency Message static website to anyone within WiFi range. It is a captive portal, meaning that no login, password, or internet connection is required.</p>
@@ -257,7 +256,7 @@ export default function RaptureKitVersionHistoryPage() {
               <p><strong>Simply plug in the new microSD card and power up the Raspberry Pi.</strong></p>
             </div>
             <div className="mt-4" style={{ paddingLeft: '10px' }}>
-              <p><strong>The 'rapture_kit' hotspot will be available within WiFi range.</strong></p>
+              <p><strong>The &apos;rapture_kit&apos; hotspot will be available within WiFi range.</strong></p>
             </div>
             <div className="mt-4" style={{ paddingLeft: '10px' }}>
               <p><i>Once a user connects to the hotspot, and after they give permission, the Post Rapture Emergency Message website will display.</i></p>
@@ -268,7 +267,7 @@ export default function RaptureKitVersionHistoryPage() {
             </div>
             <div className="mt-4" style={{ paddingLeft: '20px' }}>
               <ul>
-                <li>• <strong>Case 1</strong> - <i>Walk into any Starbucks or any location with customers that are typically connected to WiFi. If they see the 'rapture_kit' hotspot, they will be able to connect to it and see all Post Rapture Emergency Message resources. Put the PI in your backback. When you're ready to go, just disconnect the battery pack and walk out.</i></li>
+                <li>• <strong>Case 1</strong> - <i>Walk into any Starbucks or any location with customers that are typically connected to WiFi. If they see the &apos;rapture_kit&apos; hotspot, they will be able to connect to it and see all Post Rapture Emergency Message resources. Put the PI in your backback. When you&apos;re ready to go, just disconnect the battery pack and walk out.</i></li>
                 <li>• <strong>Case 2</strong> - <i>Captive Audience? Waiting for a docter? Traveling by Bus? Train? Plane? or Boat? Why not project the Post Rapture Emergency Message website to them?</i></li>
                 <li>• <strong>Case 3</strong> - <i>Remote location training! The RKPi5 server moves with you as you run! All resources, sermons, books travel with you to bring up a new generation of Christ Followers.</i></li>
               </ul>
@@ -288,8 +287,8 @@ export default function RaptureKitVersionHistoryPage() {
             
             <h3 className="text-2xl font-bold mt-12 mb-4">SUMMARY</h3>
             <p>
-              Seeing that we (on this side of the Rapture) are about to hand the baton to "a great multitude" of new believers in the Tribulation Period after the Rapture of the Church, 
-              we open our hand and permit a FREE "Build Your Own" Rapture Kit option and configured for your own supplies of 32GB (or higher) USB drives. You are permitted to use and distribute
+              Seeing that we (on this side of the Rapture) are about to hand the baton to &quot;a great multitude&quot; of new believers in the Tribulation Period after the Rapture of the Church, 
+              we open our hand and permit a FREE &quot;Build Your Own&quot; Rapture Kit option and configured for your own supplies of 32GB (or higher) USB drives. You are permitted to use and distribute
               the Rapture Kit as the Lord leads you.
             </p>
             <div className="mt-4">
@@ -323,7 +322,7 @@ export default function RaptureKitVersionHistoryPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

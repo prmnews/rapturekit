@@ -34,7 +34,7 @@ export default function InterviewsPage() {
           <div className="mb-12 text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-4 text-burgundy dark:text-yellow-400">Interviews & Testimonies</h1>
             <div className="w-24 h-1 bg-burgundy dark:bg-yellow-400 mx-auto"></div>
-            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Hear from pastors, teachers, and everyday believers about the Rapture Kit and how it's being used to prepare loved ones for what's ahead.</p>
+            <p className="mt-6 text-lg text-muted-foreground max-w-3xl mx-auto">Hear from pastors, teachers, and everyday believers about the Rapture Kit and how it&apos;s being used to prepare loved ones for what&apos;s ahead.</p>
           </div>
 
           {/* Content Area - 1200px max width */}
@@ -244,7 +244,7 @@ export default function InterviewsPage() {
                   </div>
                 </div>
                 <blockquote className="italic text-muted-foreground">
-                  "After reviewing all the resources on the first flash drive received, I was comforted knowing that any of my family members left behind would have the necessary tools and resources to make a decision that would change their eternity. I was able to add a personal letter I had written to my children and the idea of having all this in one place gave me a tremendous sense of peace. Thank you for providing this life-changing resource!"
+                  &quot;After reviewing all the resources on the first flash drive received, I was comforted knowing that any of my family members left behind would have the necessary tools and resources to make a decision that would change their eternity. I was able to add a personal letter I had written to my children and the idea of having all this in one place gave me a tremendous sense of peace. Thank you for providing this life-changing resource!&quot;
                 </blockquote>
               </div>
               
@@ -256,7 +256,7 @@ export default function InterviewsPage() {
                   </div>
                 </div>
                 <blockquote className="italic text-muted-foreground">
-                  "It's been about a year that the Holy Spirit has been stirring up a sense of urgency in me to provide "something" for friends and family who have not (and may not ) accept Christ before His soon return. I was so EXCITED when I believe God in the most interesting way led me to your website. When I read the overview of what the Rapture Kit contains I was BLOWN AWAY! God is AMAZING! THANK YOU for your obedience to God in what you have done."
+                  &quot;It&apos;s been about a year that the Holy Spirit has been stirring up a sense of urgency in me to provide &quot;something&quot; for friends and family who have not (and may not ) accept Christ before His soon return. I was so EXCITED when I believe God in the most interesting way led me to your website. When I read the overview of what the Rapture Kit contains I was BLOWN AWAY! God is AMAZING! THANK YOU for your obedience to God in what you have done.&quot;
                 </blockquote>
               </div>
               
@@ -268,7 +268,7 @@ export default function InterviewsPage() {
                   </div>
                 </div>
                 <blockquote className="italic text-muted-foreground">
-                  "I am so impressed with this ministry. I am nearly 60 years old and now I know I am a watchman. Saw you on TV on Christ in Prophecy. Praise Jesus! I will be ordering Rapture Kits and telling friends and family about your ministry. Love, prayers and Thanks!"
+                  &quot;I am so impressed with this ministry. I am nearly 60 years old and now I know I am a watchman. Saw you on TV on Christ in Prophecy. Praise Jesus! I will be ordering Rapture Kits and telling friends and family about your ministry. Love, prayers and Thanks!&quot;
                 </blockquote>
               </div>
             </div>
@@ -287,7 +287,7 @@ export default function InterviewsPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

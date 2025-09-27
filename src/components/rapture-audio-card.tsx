@@ -1,17 +1,14 @@
 import Image from "next/image"
-import Link from "next/link"
 import { PlayCircle } from "lucide-react"
-import { RaptureButton } from "./rapture-button"
 
 interface RaptureAudioCardProps {
   title: string
   description: string
   thumbnail: string
   audioSrc: string
-  target?: string
 }
 
-export function RaptureAudioCard({ title, description, thumbnail, audioSrc, target = "_blank" }: RaptureAudioCardProps) {
+export function RaptureAudioCard({ title, description, thumbnail, audioSrc }: RaptureAudioCardProps) {
   return (
     <div className="group overflow-hidden rounded-lg border bg-card shadow-sm h-full flex flex-col">
       <div className="relative aspect-[3/2] overflow-hidden">

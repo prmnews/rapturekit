@@ -4,7 +4,7 @@ import { useTheme } from "next-themes"
 import { useEffect } from "react"
 
 export function ThemeEffect() {
-  const { setTheme, resolvedTheme } = useTheme()
+  const { setTheme } = useTheme()
 
   useEffect(() => {
     // We only need to sync system preferences if the theme is set to 'system'

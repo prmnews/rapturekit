@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -46,7 +45,7 @@ export default function FAQsPage() {
                 <h3 className="text-xl font-bold mb-3">What is a Rapture Kit?</h3>
                 <p className="text-muted-foreground">
                   The Rapture Kit is a dual purpose resource designed to aid believers today in leading individuals to Christ (before the Rapture) and provide those not taken by Christ in the Rapture
-                  with essential information regarding what has happened, how we knew the Rapture was coming, what to do now, including how to be saved, what to expect in the future, and how to live for Christ. The giving of a Rapture Kit is an expression of care and God's love. 
+                  with essential information regarding what has happened, how we knew the Rapture was coming, what to do now, including how to be saved, what to expect in the future, and how to live for Christ. The giving of a Rapture Kit is an expression of care and God&apos;s love. 
                   It provides a starting point for believers today to have a spiritual impact in the world even after they have been taken in the Rapture.
                 </p>
               </div>
@@ -80,7 +79,7 @@ export default function FAQsPage() {
                 <div className="pl-4 border-l-4 border-burgundy dark:border-yellow-400">
                   <p className="text-muted-foreground mb-4">
                     <strong>General Statement:</strong> We believe the Rapture is imminent…it could happen at any time and without preconditions. Our team has been working for over five years to 
-                    provide a helpful "starting point" for believers to reach others for Christ. This includes those on this side of the Rapture, because it clearly presents the Gospel and the 
+                    provide a helpful &quot;starting point&quot; for believers to reach others for Christ. This includes those on this side of the Rapture, because it clearly presents the Gospel and the 
                     consequences of being left behind. We pray many will come to faith in time BEFORE the Tribulation period begins.
                   </p>
                   <p className="text-muted-foreground mb-4">
@@ -90,7 +89,7 @@ export default function FAQsPage() {
                   <p className="text-muted-foreground">
                     Our struggle to produce the Rapture Kit is done with great love for the lost. Therefore, we want to empower a worldwide cohort of born again believers to help others brace for 
                     the things we know are coming to the best of our ability. We have a great responsibility to pass the baton to the next generation of believers…known as Tribulation saints. 
-                    Often, these are the lost we don't yet see. Please duplicate and spread this resource as a fully aligned member of the body of Christ as we all sprint to our respective finish lines.
+                    Often, these are the lost we don&apos;t yet see. Please duplicate and spread this resource as a fully aligned member of the body of Christ as we all sprint to our respective finish lines.
                   </p>
                 </div>
                 <h4 className="text-lg font-semibold mt-6 mb-2">What we want:</h4>
@@ -99,7 +98,7 @@ export default function FAQsPage() {
                   drives (needed minimum 32GB capacity) found in many stores. Here is a link to <Link href="https://www.amazon.com/s?k=32gb+usb+drive" target="_blank" style={{ color: 'blue' }}>Amazon</Link>. We recommend 32GB USB 
                   drives in 3.0 specification. The 3.0 spec is much faster to use, but cost slightly more to purchase.
                 </p>
-                <h4 className="text-lg font-semibold mt-6 mb-2">What we don't want:</h4>
+                <h4 className="text-lg font-semibold mt-6 mb-2">What we don&apos;t want:</h4>
                 <p className="text-muted-foreground">
                   No person, church, ministry, or entity can resell or license the Rapture Kit resource under any circumstances. Duplicate and use for personal evangelism: YES! Use for your own 
                   source of making money: NO! Make sense?
@@ -110,14 +109,14 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">How hard is it to make my own Rapture Kits?</h3>
                 <p className="text-muted-foreground">
-                  It's not hard, but it is quite time consuming. We have a Make Your Own web page <Link href="/download" target="_blank" style={{ color: 'blue' }}>here</Link> that will provide several options for where you can download the materials. We only support Rapture 
+                  It&apos;s not hard, but it is quite time consuming. We have a Make Your Own web page <Link href="/download" target="_blank" style={{ color: 'blue' }}>here</Link> that will provide several options for where you can download the materials. We only support Rapture 
                   Kit version 3.1 on this website. The 9 zip files are <strong>extremely large</strong>! There are video tutorials on how to download and unzip the files, plus a few other utility tutorials. 
                   You can find the tutorials <Link href="/tutorials" target="_blank" style={{ color: 'blue' }}>here</Link>.
                 </p>
                 <div className="mt-4" style={{ paddingLeft: '20px' }}>
                   <ul>
                       <li>• Please follow the tutorials, they will talk you step by step through the process with verification that the files have been downloaded correctly!</li>
-                      <li>• Get a younger person to help you with the process! They can help you! Don't be shy! Perhaps a member of your tech team at Church?</li>
+                      <li>• Get a younger person to help you with the process! They can help you! Don&apos;t be shy! Perhaps a member of your tech team at Church?</li>
                       <li>• Get on the fastest internet connection you can! Again, your Church may have a faster connection than you do!</li>
                       <li>• Be patient and persistent! It will take a while to download all the files!</li>
                       <li>• If you have a slower internet connection, you should avoid downloading multiple files at once. Instead, download one file at a time, then move on to the next.</li>
@@ -127,7 +126,7 @@ export default function FAQsPage() {
                 </div>
                 <div className="mt-4" style={{ paddingLeft: '20px' }}>
                   <p className="italic text-muted-foreground">
-                    Sometimes, unzipping the files can report errors. If that happens to you, make sure the nesting depth of where you are trying to place the files isn't too deep (long). In other words, if you are unzipping to drive C:\ then make a folder called C:\RaptureKit\ that will help.
+                    Sometimes, unzipping the files can report errors. If that happens to you, make sure the nesting depth of where you are trying to place the files isn&apos;t too deep (long). In other words, if you are unzipping to drive C:\ then make a folder called C:\RaptureKit\ that will help.
                   </p>
                   <p className="italic text-muted-foreground mt-2">
                     Also, the compression uses the PC version of PKZip available here: <Link href="https://www.pkware.com/products/pkzip" target="_blank" style={{ color: 'blue' }}>PKZip</Link>. It is available on a free trial.
@@ -172,9 +171,9 @@ export default function FAQsPage() {
               <div className="bg-muted rounded-lg p-6">
                 <h3 className="text-xl font-bold mb-3">How you can help</h3>
                 <p className="text-muted-foreground">
-                  Please pray for God's blessing on the Rapture Kit resource as we seek to extend the Gospel to our future brothers and sisters in the Tribulation Period. Pray for their growing 
+                  Please pray for God&apos;s blessing on the Rapture Kit resource as we seek to extend the Gospel to our future brothers and sisters in the Tribulation Period. Pray for their growing 
                   awareness of the truth of Bible Prophecy and the urgent need to be saved. Pray for the Holy Spirit to convict them of their need for a personal relationship with Jesus Christ. 
-                  And pray for the Lord to raise up a great multitude of new believers in the Tribulation Period to be "on mission" for the Lord.
+                  And pray for the Lord to raise up a great multitude of new believers in the Tribulation Period to be &quot;on mission&quot; for the Lord.
                 </p>
               </div>
 
@@ -189,7 +188,7 @@ export default function FAQsPage() {
 
             <div className="mt-12 text-center">
               <p className="text-lg text-muted-foreground mb-6">
-                Have a question that's not answered here?
+                Have a question that&apos;s not answered here?
               </p>
               <RaptureButton href="/contact/">
                 Ask a Question
@@ -216,7 +215,7 @@ export default function FAQsPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

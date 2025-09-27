@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -44,7 +43,7 @@ export default function TutorialsPage() {
            
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Getting Started with Your Rapture Kit</h2>
             <p>
-              These tutorial videos are designed to help you effectively use and share your Rapture Kit. Whether you're new to the resource or looking to maximize its impact, these step-by-step guides will walk you through everything you need to know. Each tutorial addresses a specific aspect of using the Rapture Kit, from basic file management to customization and sharing strategies. Watch these videos to ensure you're making the most of this powerful resource.
+              These tutorial videos are designed to help you effectively use and share your Rapture Kit. Whether you&apos;re new to the resource or looking to maximize its impact, these step-by-step guides will walk you through everything you need to know. Each tutorial addresses a specific aspect of using the Rapture Kit, from basic file management to customization and sharing strategies. Watch these videos to ensure you&apos;re making the most of this powerful resource.
             </p>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
@@ -70,7 +69,7 @@ export default function TutorialsPage() {
 
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-16 mb-6">Advanced Tutorials</h2>
             <p>
-              Once you're familiar with the basics, these advanced tutorials will help you share the Rapture Kit with others and access specialized content.
+              Once you&apos;re familiar with the basics, these advanced tutorials will help you share the Rapture Kit with others and access specialized content.
             </p>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
@@ -103,13 +102,13 @@ export default function TutorialsPage() {
             </ul>
             
             <p className="mt-8">
-              By watching these tutorials, you'll be better equipped to utilize this resource both for your own spiritual growth and as an outreach tool for others who need to hear this critical message.
+              By watching these tutorials, you&apos;ll be better equipped to utilize this resource both for your own spiritual growth and as an outreach tool for others who need to hear this critical message.
             </p>
 
             <div className="bg-muted p-6 rounded-lg mt-12">
               <h3 className="text-xl font-bold mb-4">Need Additional Help?</h3>
               <p className="mb-4">
-                If you have questions about using your Rapture Kit that aren't addressed in these tutorials, please don't hesitate to reach out.
+                If you have questions about using your Rapture Kit that aren&apos;t addressed in these tutorials, please don&apos;t hesitate to reach out.
               </p>
               <div className="flex justify-center">
                 <RaptureButton href="contact">
@@ -132,7 +131,7 @@ export default function TutorialsPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <p className="text-sm text-muted-foreground">
                 A - Admit you are a sinner

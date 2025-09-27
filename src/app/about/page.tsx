@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -49,7 +48,7 @@ export default function AboutPage() {
             </div>
             
             <p>
-              The Rapture Kit ministry and many concerned believers believe we are in the season of the Lord's return. We have a common burden to reach the lost, including loved ones that we earnestly hope will come to faith before the Rapture of the Church.
+              The Rapture Kit ministry and many concerned believers believe we are in the season of the Lord&apos;s return. We have a common burden to reach the lost, including loved ones that we earnestly hope will come to faith before the Rapture of the Church.
             </p>
             <div className="mt-4">
               <p>
@@ -111,7 +110,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>

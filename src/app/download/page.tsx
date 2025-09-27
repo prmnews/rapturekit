@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MainNav } from "@/components/main-nav"
@@ -83,7 +82,7 @@ export default function DownloadPage() {
                     <p className="text-sm text-muted-foreground">Windows 10/11</p>
                   </div>
                   <div className="space-y-2">
-                    <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>For .bat and .png files: If they open in your browser instead of downloading, Right-click the link and select "Save link as..." to download.</i></p>
+                    <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>For .bat and .png files: If they open in your browser instead of downloading, Right-click the link and select &quot;Save link as...&quot; to download.</i></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/unzip_rapture_kit.bat" className="text-sm hover:underline">Windows Installer BATCH file</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/control_totals_Rapture%20Kit%203.1.png" className="text-sm hover:underline">Control Totals</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_1_of_9.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
@@ -137,10 +136,10 @@ export default function DownloadPage() {
             <p>Note there are two support links: these are for the BATCH install file and the control totals image.</p>
             <br />
             <ul className="space-y-4">
-              <li>Once all the files are downloaded, you do NOT need to bake a "Rapture Kit" folder on your computer (PC or Mac). The script will handle this for you.</li>
+              <li>Once all the files are downloaded, you do NOT need to bake a &quot;Rapture Kit&quot; folder on your computer (PC or Mac). The script will handle this for you.</li>
               <li>Open the Downloads folder on your computer.</li>
               <li>Double click on the Windows Installer BATCH file to run it.</li>
-              <li>The batch file will handle everything for you. One at a time, the script will extract all content to a new folder on your desktop "RAPTURE_KIT".</li>
+              <li>The batch file will handle everything for you. One at a time, the script will extract all content to a new folder on your desktop &quot;RAPTURE_KIT&quot;.</li>
               <li>Once completed, return to your Desktop! You can now browse the Rapture Kit folder and see all the content. Just double click the index.html file!</li>
             </ul>
             <br />
@@ -170,7 +169,7 @@ export default function DownloadPage() {
             </div>
             <div className="text-center">
               <Link target="_blank" href="/rapture/pdf/The_A-B-Cs_of_Salvation.pdf" className="hover:underline">
-                <h3 className="mb-2 font-semibold">The ABC's of Salvation</h3>
+                <h3 className="mb-2 font-semibold">The ABC&apos;s of Salvation</h3>
               </Link>
               <ol className="text-sm text-muted-foreground list-decimal list-inside">
                 <li>A - Admit you are a sinner</li>
