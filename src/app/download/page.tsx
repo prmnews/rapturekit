@@ -79,11 +79,11 @@ export default function DownloadPage() {
                 <div className="bg-card border rounded-lg p-6">
                   <div className="text-center mb-4">
                     <h3 className="text-xl font-bold mb-2">🖥️ PC</h3>
-                    <p className="text-sm text-muted-foreground">Windows 10/11</p>
+                    <p className="text-sm text-muted-foreground">mac 10/11</p>
                   </div>
                   <div className="space-y-2">
                     <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>For .bat and .png files: If they open in your browser instead of downloading, Right-click the link and select &quot;Save link as...&quot; to download.</i></p>
-                    <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/unzip_rapture_kit.bat" className="text-sm hover:underline">Windows Installer BATCH file</a></p>
+                    <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/unzip_rapture_kit.bat" className="text-sm hover:underline">windows Installer BATCH file</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/control_totals_Rapture%20Kit%203.1.png" className="text-sm hover:underline">Control Totals</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_1_of_9.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_2_of_9.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
@@ -97,7 +97,7 @@ export default function DownloadPage() {
                   </div>
                   <div className="mt-4 pt-4 border-t text-xs text-muted-foreground">
                     <p><strong>Total:</strong> ~27GB</p>
-                    <p>Windows 10 & 11</p>
+                    <p>windows 10 & 11</p>
                   </div>
                 </div>
 
@@ -107,7 +107,18 @@ export default function DownloadPage() {
                     <p className="text-sm text-muted-foreground">macOS 10.15+</p>
                   </div>
                   <div className="space-y-2">
-                    <p>Coming Soon</p>
+                    <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>These files will download to your Downloads folder. Be aware you might have to Save As to download. Also you must authorize the .command file to run it. This is set in the security area.</i></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/unzip_rapture_kit.bat" className="text-sm hover:underline">Mac install .command file</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/control_totals_Rapture%20Kit%203.1.png" className="text-sm hover:underline">Control Totals</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_1_of_9.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_2_of_9.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_3_of_9.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_4_of_9.zip" className="text-sm hover:underline">Part 4 of 9 (2.83GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_5_of_9.zip" className="text-sm hover:underline">Part 5 of 9 (2.21GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_6_of_9.zip" className="text-sm hover:underline">Part 6 of 9 (2.15GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_7_of_9.zip" className="text-sm hover:underline">Part 7 of 9 (4.03GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_8_of_9.zip" className="text-sm hover:underline">Part 8 of 9 (4.25GB)</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_9_of_9.zip" className="text-sm hover:underline">Part 9 of 9 (2.96GB)</a></p>
                   </div>
                   <div className="mt-4 pt-4 border-t text-xs text-muted-foreground">
                     <p><strong>Total:</strong> ~27GB</p>
@@ -130,7 +141,16 @@ export default function DownloadPage() {
                 </div>
               </div>
             </div>
-            
+
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Change Log</h2>
+            <p>09/29/2025 - Updated Author CO Wyler books 1, 2, and 3.</p>
+            <p>09/29/2025 - Added support for MacOS zip files and helper .command file.</p>
+            <ol style={{ paddingLeft: '40px' }}>
+              <li>1. Note, these files will download to your Finder Downloads folder.</li>
+              <li>2. To run the .command file, you must authorize it to run. This is set in the security area.</li>
+            </ol>
+            <br />
+
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Written Instructions</h2>
             <p>Each of the nine (9) links below should be clicked.  It will initiate the download of each of the nine (9) zip files to your downloads folder.</p>
             <p>Note there are two support links: these are for the BATCH install file and the control totals image.</p>
@@ -138,7 +158,7 @@ export default function DownloadPage() {
             <ul className="space-y-4">
               <li>Once all the files are downloaded, you do NOT need to bake a &quot;Rapture Kit&quot; folder on your computer (PC or Mac). The script will handle this for you.</li>
               <li>Open the Downloads folder on your computer.</li>
-              <li>Double click on the Windows Installer BATCH file to run it.</li>
+              <li>Double click on the mac Installer BATCH file to run it.</li>
               <li>The batch file will handle everything for you. One at a time, the script will extract all content to a new folder on your desktop &quot;RAPTURE_KIT&quot;.</li>
               <li>Once completed, return to your Desktop! You can now browse the Rapture Kit folder and see all the content. Just double click the index.html file!</li>
             </ul>
