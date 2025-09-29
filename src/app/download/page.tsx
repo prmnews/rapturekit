@@ -84,7 +84,7 @@ export default function DownloadPage() {
                   <div className="space-y-2">
                     <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>For .bat and .png files: If they open in your browser instead of downloading, Right-click the link and select &quot;Save link as...&quot; to download.</i></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/unzip_rapture_kit.bat" className="text-sm hover:underline">windows Installer BATCH file</a></p>
-                    <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/control_totals_Rapture%20Kit%203.1.png" className="text-sm hover:underline">Control Totals</a></p>
+                    <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/control_totals_Rapture_Kit_3.1_win.png" className="text-sm hover:underline">Control Totals</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_1_of_9.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_2_of_9.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
                     <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/windows/Rapture_Kit_3.1-Part_3_of_9.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
@@ -108,8 +108,8 @@ export default function DownloadPage() {
                   </div>
                   <div className="space-y-2">
                     <p style={{ backgroundColor: 'lightyellow', color: 'black' }}><strong>Download Tip:</strong><br /><i>These files will download to your Downloads folder. Be aware you might have to Save As to download. Also you must authorize the .command file to run it. This is set in the security area.</i></p>
-                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/unzip_rapture_kit.bat" className="text-sm hover:underline">Mac install .command file</a></p>
-                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/control_totals_Rapture%20Kit%203.1.png" className="text-sm hover:underline">Control Totals</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/install_rapture_kit.command" className="text-sm hover:underline">Mac install .command file</a></p>
+                      <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/control_totals_Rapture_Kit_3.1_mac.png" className="text-sm hover:underline">Control Totals</a></p>
                       <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_1_of_9.zip" className="text-sm hover:underline">Part 1 of 9 (3.10GB)</a></p>
                       <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_2_of_9.zip" className="text-sm hover:underline">Part 2 of 9 (2.18GB)</a></p>
                       <p><a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/mac/Rapture_Kit_3.1-Part_3_of_9.zip" className="text-sm hover:underline">Part 3 of 9 (2.72GB)</a></p>
@@ -142,8 +142,20 @@ export default function DownloadPage() {
               </div>
             </div>
 
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Upgrades</h2>
+            <p>To upgrade a Rapture Kit 3.0 to 3.1, you can use the following steps:</p>
+            <br />
+            <ol style={{ paddingLeft: '40px' }}>
+              <li>1. Download the Rapture Kit 3.1 INCREMENTAL UPGRADE zip file from the link: <a href="https://themissings.com/Section%2001%20-%20Materials%20for%20the%20Rapture%20Kit%20Sender/webifyRK/resources/file_repo/upgrades/Go_From_3.0_to_3.1.zip" className="text-sm hover:underline" color="blue">(here)</a></li>
+              <li>2. Unzip the file to the SAME folder on your computer where you have the Rapture Kit 3.0 files.</li>
+              <li>3. It will ask you to overwrite the files. Say &quot;Yes&quot; to overwrite all files.</li>
+              <li>4. All the new files will overlay the old files as required.</li>
+              <li>5. Use your updated Rapture Kit 3.1 folder for all duplication efforts.</li>
+              <li>6. Check the Change Log (below) to see what has been added or updated.</li>
+            </ol>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Change Log</h2>
             <p>09/29/2025 - Updated Author CO Wyler books 1, 2, and 3.</p>
+            <p>09/29/2025 - Added support for Rapture Kit 3.0 to 3.1 incremental upgrade.</p>
             <p>09/29/2025 - Added support for MacOS zip files and helper .command file.</p>
             <ol style={{ paddingLeft: '40px' }}>
               <li>1. Note, these files will download to your Finder Downloads folder.</li>
@@ -152,20 +164,38 @@ export default function DownloadPage() {
             <br />
 
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-10 mb-6">Written Instructions</h2>
-            <p>Each of the nine (9) links below should be clicked.  It will initiate the download of each of the nine (9) zip files to your downloads folder.</p>
-            <p>Note there are two support links: these are for the BATCH install file and the control totals image.</p>
+            <p>Follow these steps to download and extract the Rapture Kit:</p>
+            
+            <ol style={{ marginTop: '1rem', paddingLeft: '40px' }}>
+                <li style={{ marginBottom: '1rem' }}>1. Click each of the nine (9) links for your operating system above. Each file will download to your Downloads folder.</li>
+                <li style={{ marginBottom: '1rem' }}>2. Once all files are downloaded, create a new folder called "Rapture Kit" on your computer.</li>
+                <li style={{ marginBottom: '1rem' }}>3. Open your Downloads folder.</li>
+                <li style={{ marginBottom: '1rem' }}>4. Extract the files in order (Part 1 through Part 9) to your new Rapture Kit folder:
+                    <div style={{ marginTop: '0.5rem', marginLeft: '2rem' }}>
+                        <p><strong>Windows:</strong> Right-click each file and select "Extract All" → Choose your Rapture Kit folder</p>
+                        <p><strong>Mac:</strong> Double-click each file (they will auto-extract to the same location)</p>
+                        <p><strong>Linux:</strong> Right-click and "Extract Here" or use: <code>unzip Rapture_Kit_3.1_Linux_Part_*.zip</code></p>
+                    </div>
+                </li>
+                <li style={{ marginBottom: '1rem' }}>5. The extraction process is designed to automatically merge all folders and files into the correct structure.</li>
+                <li style={{ marginBottom: '1rem' }}>6. To verify the download is complete:
+                    <div style={{ marginTop: '0.5rem', marginLeft: '2rem' }}>
+                        <p><strong>Windows:</strong> Select all files in the Rapture Kit folder → Right-click → Properties</p>
+                        <p><strong>Mac:</strong> Select all files → Right-click → Get Info</p>
+                        <p><strong>Linux:</strong> Use: <code>du -sh RaptureKit/</code> in terminal</p>
+                    </div>
+                </li>
+                <li style={{ marginBottom: '1rem' }}>7. Confirm that your folder shows approximately 27GB of content and contains 8 main sections plus an index.html file.</li>
+            </ol>
+
+            <p className="pl-8"><strong>NOTE: The control totals for Windows are below</strong></p>
             <br />
-            <ul className="space-y-4">
-              <li>Once all the files are downloaded, you do NOT need to bake a &quot;Rapture Kit&quot; folder on your computer (PC or Mac). The script will handle this for you.</li>
-              <li>Open the Downloads folder on your computer.</li>
-              <li>Double click on the mac Installer BATCH file to run it.</li>
-              <li>The batch file will handle everything for you. One at a time, the script will extract all content to a new folder on your desktop &quot;RAPTURE_KIT&quot;.</li>
-              <li>Once completed, return to your Desktop! You can now browse the Rapture Kit folder and see all the content. Just double click the index.html file!</li>
-            </ul>
+            <p className="pl-8"><img src="control_totals_Rapture_Kit_3.1_win.png" alt="Control Totals for Windows" /></p>
             <br />
-            <p className="pl-8"><strong>Confirm that the control totals appear as follows:</strong></p>
+            <p className="pl-8"><strong>NOTE: The control totals for Mac are below</strong></p>
             <br />
-            <p className="pl-8"><img src="/control_totals_Rapture Kit 3.1.png" alt="Control Total" /></p>
+            <p className="pl-8"><img src="/control_totals_Rapture_Kit_3.1_mac.png" alt="Control Totals for Mac" style={{ width: '1000px' }} /></p>
+
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl mt-8 mb-4">A note about copying and distributing the Rapture Kit resource</h3>
             <p>You are strongly encouraged to copy and distribute the Rapture Kit resource.</p>
             <br />            
