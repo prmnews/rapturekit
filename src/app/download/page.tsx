@@ -168,13 +168,13 @@ export default function DownloadPage() {
             
             <ol style={{ marginTop: '1rem', paddingLeft: '40px' }}>
                 <li style={{ marginBottom: '1rem' }}>1. Click each of the nine (9) links for your operating system above. Each file will download to your Downloads folder.</li>
-                <li style={{ marginBottom: '1rem' }}>2. Once all files are downloaded, create a new folder called "Rapture Kit" on your computer.</li>
+                <li style={{ marginBottom: '1rem' }}>2. Once all files are downloaded, create a new folder called &quot;Rapture Kit&quot; on your computer.</li>
                 <li style={{ marginBottom: '1rem' }}>3. Open your Downloads folder.</li>
                 <li style={{ marginBottom: '1rem' }}>4. Extract the files in order (Part 1 through Part 9) to your new Rapture Kit folder:
                     <div style={{ marginTop: '0.5rem', marginLeft: '2rem' }}>
-                        <p><strong>Windows:</strong> Right-click each file and select "Extract All" → Choose your Rapture Kit folder</p>
+                        <p><strong>Windows:</strong> Right-click each file and select &quot;Extract All&quot; → Choose your Rapture Kit folder</p>
                         <p><strong>Mac:</strong> Double-click each file (they will auto-extract to the same location)</p>
-                        <p><strong>Linux:</strong> Right-click and "Extract Here" or use: <code>unzip Rapture_Kit_3.1_Linux_Part_*.zip</code></p>
+                        <p><strong>Linux:</strong> Right-click and &quot;Extract Here&quot; or use: <code>unzip Rapture_Kit_3.1_Linux_Part_*.zip</code></p>
                     </div>
                 </li>
                 <li style={{ marginBottom: '1rem' }}>5. The extraction process is designed to automatically merge all folders and files into the correct structure.</li>
