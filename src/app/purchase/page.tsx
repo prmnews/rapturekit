@@ -68,7 +68,7 @@ export default function PurchasePage() {
                 </div>
               </div>
 
-              {/* Right Column - Image and CTA */}
+              {/* Right Column - Image and Note */}
               <div className="order-first md:order-last space-y-6">
                 <div className="relative rounded-lg overflow-hidden shadow-xl">
                   <Image
@@ -87,28 +87,31 @@ export default function PurchasePage() {
                     Your order will be processed securely through their platform.
                   </p>
                 </div>
+              </div>
+            </div>
 
-                <div className="text-center">
-                  <RaptureButton 
-                    href="https://keychainrapturekit.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    variant="burgundyPrimary"
-                    className="w-full text-lg px-8 py-6"
-                  >
-                    Visit Keychain Rapture Kit Store
-                  </RaptureButton>
-                </div>
+            {/* Centered CTA Section - Second Row */}
+            <div className="mt-12 space-y-6 text-center">
+              <div>
+                <RaptureButton 
+                  href="https://keychainrapturekit.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variant="burgundyPrimary"
+                  className="text-lg px-12 py-6"
+                >
+                  Visit Keychain Rapture Kit Store
+                </RaptureButton>
+              </div>
 
-                <div className="pt-2 border-t text-center">
-                  <p className="text-sm text-muted-foreground">
-                    Prefer to make your own? You can still{" "}
-                    <Link href="/download" className="text-burgundy dark:text-yellow-400 hover:underline font-semibold">
-                      download the free kit
-                    </Link>
-                    {" "}and create your own USB drives.
-                  </p>
-                </div>
+              <div className="max-w-2xl mx-auto pt-4 border-t">
+                <p className="text-sm text-muted-foreground">
+                  Prefer to make your own? You can still{" "}
+                  <Link href="/download" className="text-burgundy dark:text-yellow-400 hover:underline font-semibold">
+                    download the free kit
+                  </Link>
+                  {" "}and create your own USB drives.
+                </p>
               </div>
             </div>
           </div>
