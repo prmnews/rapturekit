@@ -43,7 +43,7 @@ export default function PurchasePage() {
 
           {/* Two Column Layout */}
           <div className="mx-auto max-w-[1200px]">
-            <div className="grid items-center gap-12 md:grid-cols-2">
+            <div className="grid items-start gap-12 md:grid-cols-2">
               {/* Left Column - Verbiage */}
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold tracking-tight text-burgundy dark:text-yellow-400">
@@ -66,39 +66,10 @@ export default function PurchasePage() {
                     <li>Perfect for witnessing and outreach</li>
                   </ul>
                 </div>
-
-                <div className="bg-burgundy/10 dark:bg-yellow-400/10 rounded-lg p-6">
-                  <p className="text-sm text-muted-foreground mb-4">
-                    <strong>Note:</strong> This is a separate website operated by our ministry partner. 
-                    Your order will be processed securely through their platform.
-                  </p>
-                </div>
-
-                <div className="pt-4">
-                  <RaptureButton 
-                    href="https://keychainrapturekit.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    variant="burgundyPrimary"
-                    className="w-full sm:w-auto text-lg px-8 py-6"
-                  >
-                    Visit Keychain Rapture Kit Store
-                  </RaptureButton>
-                </div>
-
-                <div className="pt-6 border-t">
-                  <p className="text-sm text-muted-foreground">
-                    Prefer to make your own? You can still{" "}
-                    <Link href="/download" className="text-burgundy dark:text-yellow-400 hover:underline font-semibold">
-                      download the free kit
-                    </Link>
-                    {" "}and create your own USB drives.
-                  </p>
-                </div>
               </div>
 
-              {/* Right Column - Image */}
-              <div className="order-first md:order-last">
+              {/* Right Column - Image and CTA */}
+              <div className="order-first md:order-last space-y-6">
                 <div className="relative rounded-lg overflow-hidden shadow-xl">
                   <Image
                     src="/keychain.png"
@@ -108,6 +79,35 @@ export default function PurchasePage() {
                     className="object-cover w-full h-auto"
                     priority
                   />
+                </div>
+
+                <div className="bg-burgundy/10 dark:bg-yellow-400/10 rounded-lg p-6">
+                  <p className="text-sm text-muted-foreground">
+                    <strong>Note:</strong> This is a separate website operated by our ministry partner. 
+                    Your order will be processed securely through their platform.
+                  </p>
+                </div>
+
+                <div>
+                  <RaptureButton 
+                    href="https://keychainrapturekit.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    variant="burgundyPrimary"
+                    className="w-full text-lg px-8 py-6"
+                  >
+                    Visit Keychain Rapture Kit Store
+                  </RaptureButton>
+                </div>
+
+                <div className="pt-2 border-t">
+                  <p className="text-sm text-muted-foreground">
+                    Prefer to make your own? You can still{" "}
+                    <Link href="/download" className="text-burgundy dark:text-yellow-400 hover:underline font-semibold">
+                      download the free kit
+                    </Link>
+                    {" "}and create your own USB drives.
+                  </p>
                 </div>
               </div>
             </div>
