@@ -54,6 +54,13 @@ export default function Home() {
                 >
                   Download
                 </RaptureButton>
+                <RaptureButton 
+                  href="/purchase" 
+                  variant="burgundyPrimary"
+                  className="bg-[#800020] text-white hover:bg-[#600010] border-[#800020]"
+                >
+                  Purchase
+                </RaptureButton>
               </div>
               <div className="mt-6">
                 <RaptureButton href="/rapture" variant="redPrimary" className="w-full sm:w-auto px-8">
