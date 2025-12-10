@@ -88,7 +88,7 @@ export default function PurchasePage() {
                   </p>
                 </div>
 
-                <div>
+                <div className="text-center">
                   <RaptureButton 
                     href="https://keychainrapturekit.com"
                     target="_blank"
@@ -100,7 +100,7 @@ export default function PurchasePage() {
                   </RaptureButton>
                 </div>
 
-                <div className="pt-2 border-t">
+                <div className="pt-2 border-t text-center">
                   <p className="text-sm text-muted-foreground">
                     Prefer to make your own? You can still{" "}
                     <Link href="/download" className="text-burgundy dark:text-yellow-400 hover:underline font-semibold">
