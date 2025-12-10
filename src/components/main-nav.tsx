@@ -95,6 +95,9 @@ function DesktopNav() {
               <ListItem href="/download" title="Make Your Own">
                 Instructions for downloading and creating your own Rapture Kit.
               </ListItem>
+              <ListItem href="/purchase" title="Purchase Pre-Made">
+                Order a physical USB keychain Rapture Kit ready to share.
+              </ListItem>
               <ListItem href="/faqs" title="Frequently Asked Questions">
                 Common questions about the Rapture Kit.
               </ListItem>
@@ -165,6 +168,9 @@ function MobileNav() {
               </Link>
               <Link href="/download" className="text-sm text-muted-foreground">
                 Make Your Own
+              </Link>
+              <Link href="/purchase" className="text-sm text-muted-foreground">
+                Purchase Pre-Made
               </Link>
               <Link href="/faqs" className="text-sm text-muted-foreground">
                 Frequently Asked Questions
