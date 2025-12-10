@@ -98,7 +98,7 @@ export default function PurchasePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   variant="burgundyPrimary"
-                  className="text-lg px-16 py-6"
+                  className="text-lg !px-16 !py-6"
                 >
                   Visit Keychain Rapture Kit Store
                 </RaptureButton>
